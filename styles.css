@@ -13,6 +13,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+strong,
+b {
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* ---------- Headings ---------- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,6 +40,10 @@ h2 {
   letter-spacing: 0.1em;
   font-weight: 500;
   color: #999;
+}
+
+.section-gap {
+  margin-top: 3.8rem;
 }
 
 h3 {
@@ -189,8 +198,10 @@ main {
 }
 
 .pub-entry .pub-title {
-  font-weight: 600;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-size: 0.82rem;
+  letter-spacing: 0.01em;
 }
 
 .pub-entry .pub-authors {
@@ -211,6 +222,40 @@ main {
   line-height: 1.6;
   margin-top: 0.5rem;
   margin-bottom: 0;
+}
+
+/* ---------- Talks ---------- */
+
+#talks {
+  margin-top: 0.2rem;
+}
+
+.talk-entry {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 0.8rem 0.55rem;
+  margin-bottom: 0.45rem;
+  border: 1px solid #e5e3dd;
+  border-left: 2px solid #c9c5bb;
+  background: #f7f6f1;
+}
+
+.talk-title {
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.45;
+}
+
+.talk-venue {
+  flex-shrink: 0;
+  font-size: 0.66rem;
+  letter-spacing: 0.03em;
+  color: #8a867c;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* ---------- Tables ---------- */
@@ -258,6 +303,17 @@ td {
   color: #fff;
 }
 
+/* ---------- CV ---------- */
+
+.cv-download {
+  text-align: center;
+  margin: 0;
+}
+
+.cv-first-section {
+  margin-top: 2.4rem;
+}
+
 /* ---------- Misc ---------- */
 
 hr {
@@ -292,6 +348,15 @@ blockquote {
     flex-direction: column;
     align-items: center;
     text-align: left;
+  }
+  .talk-entry {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    padding: 0.55rem 0.7rem 0.5rem;
+  }
+  .talk-venue {
+    white-space: normal;
   }
   main { padding: 3rem 1.2rem 5rem; }
   h1 { font-size: 1.05rem; }

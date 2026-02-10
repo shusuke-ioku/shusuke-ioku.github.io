@@ -1,12 +1,12 @@
 ---
-title: "CV"
+title: ""
 ---
 
+::: {.cv-download}
 [Download PDF](files/cv.pdf){.btn .btn-outline-dark}
+:::
 
----
-
-## Education
+## Education {.cv-first-section}
 
 - **Ph.D. in Political Science**, University of Rochester, 2021--present\
   Major: International Relations, Formal Theory\

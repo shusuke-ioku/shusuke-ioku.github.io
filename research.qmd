@@ -2,7 +2,8 @@
 title: ""
 
 papers:
-  - title: "Constraining with Their Feet: Jurisdictional Rivalry and State Erosion in Early Modern Japan"
+  - id: exit-paper
+    title: "Constrain with Their Feet: Jurisdictional Rivalry and State Erosion in Early Modern Japan"
     status: Under review
     pdf: "https://www.dropbox.com/scl/fi/d9txjmw7tlhdzj5kgll17/paper.pdf?rlkey=reuumezw4m4azo6rxuau36iup&dl=0"
     abstract: >-
@@ -23,7 +24,8 @@ papers:
       popular constraint, surfacing a mechanism long overshadowed by
       scholarship's emphasis on direct resistance and notions of passive exit.
 
-  - title: "Political Shock and Social Mobilization: Evidence from Interwar Japan"
+  - id: fascist-paper
+    title: "Political Shock and Social Mobilization: Evidence from Interwar Japan"
     status: Working paper
     abstract: >-
       Political shocks are widely thought to spark social mobilization by
@@ -117,19 +119,20 @@ talks:
     venue: "MPSA 2021"
 ---
 
+```{=html}
+<style>
+main {
+  padding-bottom: 0;
+}
+</style>
+```
+
 ## Papers
 
 ::: {#papers}
 :::
 
-## Other Publications
+## Other Publications {.section-gap}
 
 ::: {#other-pubs}
-:::
-
----
-
-## Talks
-
-::: {#talks}
 :::

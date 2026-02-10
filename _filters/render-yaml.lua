@@ -47,7 +47,8 @@ end
 local function render_papers(papers)
   local out = pandoc.Blocks{}
   for _, p in ipairs(papers) do
-    local h = '<div class="pub-entry">\n'
+    local div_id = p.id and (' id="' .. str(p.id) .. '"') or ""
+    local h = '<div class="pub-entry"' .. div_id .. '>\n'
     h = h .. '<span class="pub-title"><strong>' .. to_html(p.title) .. '</strong></span><br>\n'
     if p.coauthors then
       h = h .. '<span class="pub-authors">with ' .. to_html(p.coauthors) .. '</span><br>\n'
@@ -85,17 +86,15 @@ end
 
 local function render_talks(talks)
   local out = pandoc.Blocks{}
-  local items = {}
   for _, t in ipairs(talks) do
-    table.insert(items, {pandoc.Plain(pandoc.Inlines{
-      pandoc.Str(str(t.title)),
-      pandoc.Space(),
-      pandoc.Str("—"),
-      pandoc.Space(),
-      pandoc.Str(str(t.venue))
-    })})
+    local h = '<div class="talk-entry">\n'
+    h = h .. '<span class="talk-title">' .. to_html(t.title) .. '</span>\n'
+    if t.venue then
+      h = h .. '<span class="talk-venue">' .. to_html(t.venue) .. '</span>\n'
+    end
+    h = h .. '</div>\n'
+    out:insert(pandoc.RawBlock('html', h))
   end
-  out:insert(pandoc.BulletList(items))
   return out
 end
 
