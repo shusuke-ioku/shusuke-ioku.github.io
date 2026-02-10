@@ -291,7 +291,7 @@ blockquote {
   .about-header {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
   }
   main { padding: 3rem 1.2rem 5rem; }
   h1 { font-size: 1.05rem; }
