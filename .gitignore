@@ -1,0 +1,16 @@
+# Quarto output
+_site/
+.quarto/
+_publish.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*~
+.vscode/
+.idea/
+
+/.quarto/

@@ -1,0 +1,30 @@
+---
+title: ""
+
+courses:
+  - course: "ECO 288: Game Theory"
+    term: Spring 2025
+    instructor: "Prof. Tasos Kalandrakis"
+    school: "U of Rochester"
+  - course: "ECO 255: Poverty and Development"
+    term: Fall 2024
+    instructor: "Prof. Anderson Frey"
+    school: "U of Rochester"
+  - course: "ECO 288: Game Theory"
+    term: Spring 2024
+    instructor: "Prof. Romans Pancs"
+    school: "U of Rochester"
+  - course: "PSCI 407: Mathematical Modeling"
+    term: Fall 2023
+    instructor: "Prof. John Duggan"
+    school: "U of Rochester"
+  - course: 国際政治学
+    term: Spring 2021
+    instructor: "Prof. Shuhei Kurizaki"
+    school: "Waseda University"
+---
+
+## Teaching Assistant
+
+::: {#courses}
+:::

@@ -1,0 +1,302 @@
+/* ==========================================================================
+   Minimalist B&W — system sans-serif, small type, lots of air
+   ========================================================================== */
+
+/* ---------- Base ---------- */
+
+body {
+  color: #222;
+  background-color: #f4f3ef;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Headings ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin: 3.5rem 0 1.5rem;
+  padding: 0;
+  border: none;
+}
+
+h2 {
+  font-size: 0.72rem;
+  margin: 3rem 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #999;
+}
+
+h3 {
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin: 2rem 0 0.5rem;
+  color: #333;
+}
+
+/* ---------- Paragraphs & lists ---------- */
+
+p { margin: 0 0 1.2rem; }
+
+ul, ol {
+  padding-left: 1rem;
+  margin: 0 0 1.2rem;
+}
+
+li { margin-bottom: 0.4rem; }
+
+/* ---------- Links ---------- */
+
+a {
+  color: #222;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0px;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  color: #222;
+  border-bottom-color: #222;
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  background-color: #f4f3ef !important;
+  border-bottom: none;
+  padding: 2rem 0 1.5rem;
+}
+
+.navbar > .container-fluid,
+.navbar > .container-xxl {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.navbar .navbar-brand {
+  color: #111 !important;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-bottom: none;
+}
+
+.navbar .navbar-brand:hover {
+  border-bottom: none;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+
+.navbar .nav-link {
+  color: #999 !important;
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0 0.8rem !important;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #222 !important;
+}
+
+.navbar .nav-link.active {
+  color: #222 !important;
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+/* ---------- Layout ---------- */
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 8rem;
+}
+
+#quarto-content {
+  padding-top: 1rem;
+}
+
+/* ---------- Footer ---------- */
+
+.nav-footer {
+  border-top: none;
+  background-color: #f4f3ef;
+  color: #ccc;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  padding: 4rem 0 2rem;
+}
+
+.nav-footer a {
+  color: #ccc;
+  border-bottom: none;
+}
+
+/* ---------- About page ---------- */
+
+.about-header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.about-header img { flex-shrink: 0; }
+
+.about-text {
+  flex: 1;
+  min-width: 240px;
+}
+
+.profile-photo {
+  max-width: 140px;
+  border: none;
+  filter: grayscale(100%);
+}
+
+/* ---------- Publications ---------- */
+
+.pub-entry {
+  margin-bottom: 2.4rem;
+  padding-left: 0;
+  border-left: none;
+}
+
+.pub-entry .pub-title {
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.pub-entry .pub-authors {
+  color: #777;
+  font-size: 0.75rem;
+}
+
+.pub-entry .pub-venue {
+  font-style: italic;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+.pub-entry .pub-abstract p,
+.pub-entry p {
+  font-size: 0.72rem;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* ---------- Tables ---------- */
+
+table {
+  width: 100%;
+  max-width: 840px;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+th {
+  text-align: left;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.62rem;
+  color: #aaa;
+  padding: 0.5rem 0.8rem 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 0.5rem 0.8rem 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #444;
+}
+
+/* ---------- Buttons ---------- */
+
+.btn-outline-dark {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: 0;
+  border: 1px solid #222;
+  color: #222;
+  background: transparent;
+}
+
+.btn-outline-dark:hover {
+  background: #222;
+  color: #fff;
+}
+
+/* ---------- Misc ---------- */
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 3.5rem 0;
+}
+
+blockquote {
+  border-left: 2px solid #ddd;
+  padding-left: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+  .navbar > .container-fluid,
+  .navbar > .container-xxl {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .navbar .navbar-nav {
+    justify-content: center;
+  }
+  .about-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main { padding: 3rem 1.2rem 5rem; }
+  h1 { font-size: 1.05rem; }
+}
+
+/* ---------- Print ---------- */
+
+@media print {
+  .navbar, .nav-footer { display: none; }
+  body { font-size: 10pt; background: #fff; }
+}

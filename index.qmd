@@ -1,0 +1,22 @@
+---
+title: ""
+---
+
+::: {.about-header}
+
+![](img/photo.jpg){.profile-photo fig-alt="Photo of Shusuke Ioku"}
+
+::: {.about-text}
+
+Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I specialize in historical political economy, studying popular resistance and political extremism in Japanese history by integrating formal theory with detailed micro-level historical data.
+
+My research explores how societies respond to state authority—examining the ways in which populations constrain, negotiate with, or fall under the control of ruling powers. I investigate phenomena such as mass exit, which disciplined rulers in early modern Japan through competition among jurisdictions, as well as the ideological factors that enabled fascist mobilization during the interwar era.
+
+### Contact
+
+- **Email**: sioku[at]ur.rochester.edu
+- **GitHub**: [shusuke-ioku](https://github.com/shusuke-ioku)
+
+:::
+
+:::

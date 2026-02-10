@@ -1,0 +1,45 @@
+---
+title: "CV"
+---
+
+[Download PDF](files/cv.pdf){.btn .btn-outline-dark}
+
+---
+
+## Education
+
+- **Ph.D. in Political Science**, University of Rochester, 2021--present\
+  Major: International Relations, Formal Theory\
+  Committee: Scott F. Abramson (chair), Hein Goemans, Casey Petroff, Sergio Montero
+- **M.A. in Political Science**, Waseda University, 2020--2021\
+  Advisors: Shuhei Kurizaki, Atsushi Tago
+- **M.P.P.**, University of Tokyo, 2015--2017
+- **B.A. in Philosophy**, University of Tokyo, 2011--2015
+
+## Employment
+
+- Junior Research Fellow, Japan Institute of International Affairs, 2019--2020
+- Research Fellow, National Defense Academy, 2018--2019
+- Research Intern, Asia Pacific Initiative, 2015--2017
+
+## Publications
+
+See [Research](research.qmd) page for full list.
+
+## Awards
+
+- Best Paper/Presentation Award, Graduate Seminar, Dept. of Political Science, U of Rochester, 2024
+- Best Graduation Thesis Award, Waseda University, 2021
+
+## Presentations
+
+- Mobility and State Extraction in Early Modern Japan --- MPSA 2025; JSQPS 2024 Summer
+- When Freedom Backfires --- JSQPS 2025 Summer
+- Teppo Made Japan --- Waseda University, 2023
+- Empirical Model of Alliance Formation --- Waseda University, 2022
+- Threats and Assurances in Crisis Bargaining --- MPSA 2021
+
+## Professional Affiliations
+
+- American Political Science Association
+- Midwest Political Science Association

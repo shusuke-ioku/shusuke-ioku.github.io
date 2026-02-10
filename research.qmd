@@ -1,0 +1,135 @@
+---
+title: ""
+
+papers:
+  - title: "Constraining with Their Feet: Jurisdictional Rivalry and State Erosion in Early Modern Japan"
+    status: Under review
+    pdf: "https://www.dropbox.com/scl/fi/d9txjmw7tlhdzj5kgll17/paper.pdf?rlkey=reuumezw4m4azo6rxuau36iup&dl=0"
+    abstract: >-
+      Throughout history, jurisdictional conflict among rival rulers has
+      constrained oppression by enabling subjects to pursue mass exit---often
+      to draw external intervention---as an alternative to directly confronting
+      authority. I document this mechanism in Tokugawa Japan, where a feudal
+      structure of domains with similar institutions but divergent tax burdens
+      competed for subjects' loyalty, creating an ideal setting to observe a
+      competitive market for governance. Leveraging newly digitized village-level
+      records of peasant resistance, I show that exposure to alternative
+      authority---measured by the ratio of a village's distance to its
+      home-domain capital relative to the nearest foreign-domain capital---induced
+      villages to opt for exit over confrontation. Moreover, domains facing more
+      intense jurisdictional rivalry---measured by the average distance ratio
+      across their villages---extracted lower taxes, accounting for alternative
+      mechanisms. These findings highlight mass exit as an *active* means of
+      popular constraint, surfacing a mechanism long overshadowed by
+      scholarship's emphasis on direct resistance and notions of passive exit.
+
+  - title: "Political Shock and Social Mobilization: Evidence from Interwar Japan"
+    status: Working paper
+    abstract: >-
+      Political shocks are widely thought to spark social mobilization by
+      converting private grievances into a shared experience. Yet why the same
+      shock activates some constituencies and not others remains unclear. I
+      adjudicate between two accounts: material conditions that alter the costs
+      of mobilization, and ideological forces that shape how grievances are
+      interpreted and made politically legible. Exploiting the May 15 Incident
+      of 1932---a political assassination that marked a decisive turn toward
+      fascist mobilization in Japan---as a natural experiment, I examine which
+      populations responded to the shock. Using a difference-in-differences
+      design with monthly prefecture-level data on right-wing organization
+      density, I show that ideological determinants dominate: mobilization
+      surged only where populations were already embedded in a preexisting
+      ideological framework, while regions facing greater hardship or stronger
+      organizational infrastructure remained dormant.
+
+  - title: "Self-State Subversion: The Birth of Feudalism in Early Medieval Japan"
+    status: Working paper
+    abstract: >-
+      While scholars broadly agree that feudal orders arose from the limitations
+      of centralized state control, much less is known about the mechanisms
+      through which this process began and unfolded---specifically, who fostered
+      the fragmentation of state power and where it originated. I propose a
+      theoretical framework identifying the conditions under which statebuilders
+      deliberately hollow out their own administrative apparatus by privatizing
+      extraction: granting fiscal immunities in exchange for a share of the
+      returns. I evaluate the model's implications using the case of early
+      medieval Japan, where varying degrees of feudalization across regions can
+      be systematically observed through estate commendations to the imperial
+      court. Consistent with the theory, I find that estate commendation by
+      emerging local warrior elites occurred most prominently in peripheral
+      regions where central authority was weak but local administrative capacity
+      remained strong.
+
+  - title: "Hydraulic Civilizations"
+    status: Work in progress
+    abstract: >-
+      Although agricultural surplus was vital for early state formation, it also
+      exposed states to external threats. I claim that while surplus itself
+      jeopardized states, the administrative capacity to generate it---specifically
+      hydraulic management---promoted state persistence. Maintaining costly
+      irrigation systems provided rulers with bargaining leverage over both
+      external predators and internal subjects, deterred both invasions and
+      defections, and thereby fostered stable territorial control. I illustrate
+      this argument through a formal model and test it using global data of
+      historical polities since 3400 BCE. Duration analysis shows that states
+      with greater hydraulic dependence, measured by the potential yield gap
+      between irrigated and rainfed farming, tended to endure longer without
+      losing territories, while higher absolute yields accelerated territorial
+      loss. The result was exclusively found in earlier periods, where developing
+      hydraulic systems was more costly. Additionally, polities with greater
+      hydraulic dependence tended to develop more complex social structures.
+
+  - title: "Military Innovation and Territorial State Formation"
+    status: Work in progress
+    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
+    abstract: >-
+      Social scientists have argued that conflict and military technological
+      innovation fostered the formation of territorial states. While the
+      literature has predominantly examined European history, Japan's
+      Warring-States Period offers a unique context to test this claim; the
+      island country initially composed by more than 100 autonomous local
+      powerholders (daimyo) was exposed to an exogenous shock of military
+      innovation, an accidental importation of firearms in 1543, after which
+      the fragmented society rapidly transformed into a centralized state under
+      a singular authority. Using original grid-year datasets of battles,
+      castles, and territorial changes, we show (preliminary, descriptive)
+      results suggesting that the technological shock diminished defensive
+      advantage and made economic power better translate into battleground
+      success, thereby inducing small rulers to concede their autonomy.
+
+other_publications:
+  - title: "Extended Gray Zone Deterrence in the South China Sea"
+    venue: "*Pacific Forum Issues & Insights*, Vol.22, pp.31--49"
+
+  - title: "外交の計量分析：外交使節制度の衰微と再生"
+    coauthors: "Shuhei Kurizaki and Rui Asano"
+    venue: "Book chapter in *国際関係研究の方法* (University of Tokyo Press, 2021)"
+
+talks:
+  - title: "Mobility and State Extraction in Early Modern Japan"
+    venue: "MPSA 2025; JSQPS 2024 Summer"
+  - title: "When Freedom Backfires"
+    venue: "JSQPS 2025 Summer"
+  - title: "Teppo Made Japan"
+    venue: "Waseda University, 2023"
+  - title: "Empirical Model of Alliance Formation"
+    venue: "Waseda University, 2022"
+  - title: "Threats and Assurances in Crisis Bargaining"
+    venue: "MPSA 2021"
+---
+
+## Papers
+
+::: {#papers}
+:::
+
+## Other Publications
+
+::: {#other-pubs}
+:::
+
+---
+
+## Talks
+
+::: {#talks}
+:::

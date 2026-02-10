@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - .nojekyll
+
+website:
+  title: "Shusuke Ioku"
+  description: "Research portfolio"
+  site-url: https://shusuke-ioku.github.io
+  search: false
+  navbar:
+    background: white
+    foreground: black
+    title: "SHUSUKE IOKU"
+    search: false
+    left:
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    center: |
+      &copy; 2026 Shusuke Ioku
+    border: false
+  google-analytics: "G-VDEWLM2ZLS"
+
+filters:
+  - _filters/render-yaml.lua
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    mainfont: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
