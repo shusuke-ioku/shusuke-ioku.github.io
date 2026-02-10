@@ -275,12 +275,15 @@ blockquote {
 
 /* ---------- Responsive ---------- */
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   .navbar > .container-fluid,
   .navbar > .container-xxl {
     flex-direction: column;
     align-items: center;
     gap: 0.6rem;
+  }
+  .navbar .navbar-toggler {
+    margin: 0 auto;
   }
   .navbar .navbar-nav {
     justify-content: center;
