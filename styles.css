@@ -296,6 +296,80 @@ main {
   white-space: nowrap;
 }
 
+/* ---------- Misc ---------- */
+
+.misc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.misc-card {
+  border: 1px solid #ddd8cc;
+  background: #f7f6f1;
+  padding: 1rem 1rem 0.4rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.misc-item-content .item-more {
+  display: none;
+  margin-top: 0.8rem;
+}
+
+.misc-card.expanded {
+  grid-column: 1 / -1;
+}
+
+.misc-card.expanded .misc-item-content .item-more {
+  display: block;
+}
+
+.misc-expand-toggle {
+  margin: auto 0 0.35rem;
+  align-self: flex-start;
+  font: inherit;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #666;
+  background: transparent;
+  border: 1px solid #d4cebf;
+  padding: 0.16rem 0.46rem;
+}
+
+.misc-expand-toggle:hover {
+  border-color: #222;
+  color: #222;
+}
+
+.misc-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  font-size: 0.8rem;
+  color: #222;
+}
+
+.misc-card h4 {
+  margin: 1.05rem 0 0.35rem;
+  font-size: 0.67rem;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 500;
+}
+
+.misc-card p {
+  margin-bottom: 0.7rem;
+  color: #555;
+}
+
+.misc-card pre {
+  margin-top: 0.3rem;
+}
+
 /* ---------- Tables ---------- */
 
 table {
@@ -401,6 +475,12 @@ blockquote {
   }
   .talk-venue {
     white-space: normal;
+  }
+  .misc-card {
+    padding: 0.85rem 0.8rem 0.35rem;
+  }
+  .misc-grid {
+    grid-template-columns: 1fr;
   }
   main { padding: 3rem 1.2rem 5rem; }
   h1 { font-size: 1.05rem; }

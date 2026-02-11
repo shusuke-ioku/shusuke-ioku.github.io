@@ -2,25 +2,37 @@
 title: ""
 ---
 
-## LaTeX-Like Typst Template
+::: {.misc-grid}
 
-A LaTeX-style paper template for Typst, offering essential features.
-Repo: [github.com/shusuke-ioku/texst](https://github.com/shusuke-ioku/texst)
+::: {.misc-card}
+::: {.misc-item-content}
+{{< include misc-items/typst-template.md >}}
+:::
+<button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
+:::
 
-### Installation (Typst Universe)
+::: {.misc-card}
+::: {.misc-item-content}
+{{< include misc-items/sample-item.md >}}
+:::
+<button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
+:::
 
-```bash
-#import "@preview/texst:0.1.0": paper
-```
+:::
 
-### Initialize a Template Project
-
-```bash
-typst init @preview/texst:0.1.0
-```
-
-### Local Repository Checkout (Alternative)
-
-```bash
-#import "./src/lib.typ": paper
+```{=html}
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  const toggles = document.querySelectorAll(".misc-expand-toggle");
+  toggles.forEach((btn) => {
+    btn.addEventListener("click", function () {
+      const card = btn.closest(".misc-card");
+      if (!card) return;
+      const expanded = card.classList.toggle("expanded");
+      btn.textContent = expanded ? "Collapse" : "Expand";
+      btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+    });
+  });
+});
+</script>
 ```
