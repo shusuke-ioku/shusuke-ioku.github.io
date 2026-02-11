@@ -13,7 +13,8 @@ It bootstraps an analysis + paper workspace with optional agent folders.
 ```bash
 # From PyPI
 pipx install blank-agentic-cli
-
+```
+```bash
 # From GitHub
 pipx install git+https://github.com/shusuke-ioku/blank.git
 ```
