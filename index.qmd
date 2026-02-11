@@ -4,7 +4,7 @@ title: ""
 
 ::: {.about-header}
 
-![](img/photo.jpg){.profile-photo fig-alt="Photo of Shusuke Ioku"}
+![](img/profile.jpg){.profile-photo fig-alt="Photo of Shusuke Ioku"}
 
 ::: {.about-text}
 
