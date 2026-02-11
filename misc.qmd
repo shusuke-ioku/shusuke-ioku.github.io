@@ -13,13 +13,6 @@ title: ""
 
 ::: {.misc-card}
 ::: {.misc-item-content}
-{{< include misc-items/sample-item.md >}}
-:::
-<button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
-:::
-
-::: {.misc-card}
-::: {.misc-item-content}
 {{< include misc-items/blank-cli.md >}}
 :::
 <button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
