@@ -136,6 +136,23 @@ a:hover {
   font-weight: 500;
 }
 
+@media (min-width: 992px) {
+  .navbar > .container-fluid,
+  .navbar > .container-xxl {
+    gap: 0;
+  }
+  .navbar .navbar-brand-container {
+    margin-left: 0 !important;
+    margin-right: 1.6rem !important;
+  }
+  .navbar .navbar-nav {
+    gap: 1.6rem;
+  }
+  .navbar .nav-link {
+    padding: 0 !important;
+  }
+}
+
 .navbar-toggler {
   border: none;
   padding: 0;
