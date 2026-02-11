@@ -1,0 +1,26 @@
+---
+title: ""
+---
+
+## LaTeX-Like Typst Template
+
+`texst` provides a clean LaTeX-like paper layout in Typst, including a ready `paper(...)` wrapper for fast setup.  
+Repo: [github.com/shusuke-ioku/texst](https://github.com/shusuke-ioku/texst)
+
+### Installation (Typst Universe)
+
+```bash
+#import "@preview/texst:0.1.0": paper
+```
+
+### Initialize a Template Project
+
+```bash
+typst init @preview/texst:0.1.0
+```
+
+### Local Repository Checkout (Alternative)
+
+```bash
+#import "./src/lib.typ": paper
+```

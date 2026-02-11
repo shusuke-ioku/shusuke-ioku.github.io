@@ -2,12 +2,15 @@
    Minimalist B&W — system sans-serif, small type, lots of air
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap');
+
 /* ---------- Base ---------- */
 
 body {
+  font-family: "Inconsolata", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   color: #222;
   background-color: #f4f3ef;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   line-height: 1.7;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
@@ -15,7 +18,7 @@ body {
 
 strong,
 b {
-  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: inherit;
 }
 
 /* ---------- Headings ---------- */
@@ -97,7 +100,7 @@ a:hover {
 .navbar .navbar-brand {
   color: #111 !important;
   font-size: 0.72rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.08em;
   padding: 0 !important;
   margin: 0 !important;
@@ -138,6 +141,20 @@ a:hover {
   padding: 0;
 }
 
+.navbar-toggler .navbar-toggler-icon {
+  transition: all 0.2s ease;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-image: none;
+  width: 1.5em;
+  height: 1.5em;
+  border: 2.2px solid #222;
+  border-radius: 50%;
+  box-shadow: none;
+  text-decoration: none;
+}
+
 /* ---------- Layout ---------- */
 
 main {
@@ -176,15 +193,20 @@ main {
   margin-bottom: 3rem;
 }
 
+.about-header > p {
+  order: 2;
+}
+
 .about-header img { flex-shrink: 0; }
 
 .about-text {
   flex: 1;
   min-width: 240px;
+  order: 1;
 }
 
 .profile-photo {
-  max-width: 140px;
+  max-width: 182px;
   border: none;
   filter: grayscale(100%);
 }
@@ -198,7 +220,7 @@ main {
 }
 
 .pub-entry .pub-title {
-  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 0.82rem;
   letter-spacing: 0.01em;
@@ -210,9 +232,25 @@ main {
 }
 
 .pub-entry .pub-venue {
-  font-style: italic;
-  color: #999;
-  font-size: 0.75rem;
+  display: inline-block;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  border: 1px solid #cfc9bc;
+  padding: 0.08rem 0.45rem;
+  line-height: 1.2;
+}
+
+.pub-entry .pub-status {
+  display: inline-block;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  border: 1px solid #cfc9bc;
+  padding: 0.08rem 0.45rem;
+  line-height: 1.2;
 }
 
 .pub-entry .pub-abstract p,
@@ -348,6 +386,12 @@ blockquote {
     flex-direction: column;
     align-items: center;
     text-align: left;
+  }
+  .about-header > p {
+    order: 1;
+  }
+  .about-text {
+    order: 2;
   }
   .talk-entry {
     flex-direction: column;
