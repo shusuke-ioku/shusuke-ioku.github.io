@@ -4,7 +4,7 @@ title: ""
 
 ## LaTeX-Like Typst Template
 
-`texst` provides a clean LaTeX-like paper layout in Typst, including a ready `paper(...)` wrapper for fast setup.  
+A LaTeX-style paper template for Typst, offering essential features.
 Repo: [github.com/shusuke-ioku/texst](https://github.com/shusuke-ioku/texst)
 
 ### Installation (Typst Universe)
