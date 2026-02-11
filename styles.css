@@ -206,7 +206,7 @@ main {
 }
 
 .profile-photo {
-  max-width: 182px;
+  max-width: 160px;
   border: none;
   filter: grayscale(100%);
 }
