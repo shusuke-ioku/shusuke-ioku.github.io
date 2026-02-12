@@ -127,7 +127,8 @@ See [Research](research.qmd) page for full list.
 2024
 :::
 ::: {.cv-desc}
-Best Paper/Presentation Award, Graduate Seminar, Dept. of Political Science, U of Rochester
+Best Paper/Presentation Award\
+<span class="cv-sub">U of Rochester</span>
 :::
 :::
 ::: {.cv-row}
@@ -135,7 +136,8 @@ Best Paper/Presentation Award, Graduate Seminar, Dept. of Political Science, U o
 2021
 :::
 ::: {.cv-desc}
-Best Graduation Thesis Award, Waseda University
+Best Graduation Thesis Award\
+<span class="cv-sub">Waseda University</span>
 :::
 :::
 :::
