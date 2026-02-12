@@ -54,7 +54,7 @@ title: ""
 2021--present
 :::
 ::: {.cv-desc}
-**Ph.D. in Political Science**, University of Rochester\
+**Ph.D. in Political Science**, Univ. of Rochester\
 <span class="cv-sub">Major: International Relations, Formal Theory</span>\
 <span class="cv-sub">Committee: Scott F. Abramson (chair), Hein Goemans, Casey Petroff, Sergio Montero</span>
 :::
@@ -64,7 +64,7 @@ title: ""
 2020--2021
 :::
 ::: {.cv-desc}
-**M.A. in Political Science**, Waseda University\
+**M.A. in Political Science**, Waseda Univ.\
 <span class="cv-sub">Advisors: Shuhei Kurizaki, Atsushi Tago</span>
 :::
 :::
@@ -128,7 +128,7 @@ See [Research](research.qmd) page for full list.
 :::
 ::: {.cv-desc}
 Best Paper/Presentation Award\
-<span class="cv-sub">U of Rochester</span>
+<span class="cv-sub">Univ. of Rochester</span>
 :::
 :::
 ::: {.cv-row}
@@ -137,7 +137,7 @@ Best Paper/Presentation Award\
 :::
 ::: {.cv-desc}
 Best Graduation Thesis Award\
-<span class="cv-sub">Waseda University</span>
+<span class="cv-sub">Waseda Univ.</span>
 :::
 :::
 :::
@@ -169,7 +169,7 @@ When Freedom Backfires\
 :::
 ::: {.cv-desc}
 Teppo Made Japan\
-<span class="cv-sub">Waseda University</span>
+<span class="cv-sub">Waseda Univ.</span>
 :::
 :::
 ::: {.cv-row}
@@ -178,7 +178,7 @@ Teppo Made Japan\
 :::
 ::: {.cv-desc}
 Empirical Model of Alliance Formation\
-<span class="cv-sub">Waseda University</span>
+<span class="cv-sub">Waseda Univ.</span>
 :::
 :::
 ::: {.cv-row}
