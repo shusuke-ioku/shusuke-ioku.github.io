@@ -11,6 +11,24 @@ local function str(val)
   return pandoc.utils.stringify(val)
 end
 
+local function esc_html(s)
+  if not s then return "" end
+  s = s:gsub("&", "&amp;")
+  s = s:gsub("<", "&lt;")
+  s = s:gsub(">", "&gt;")
+  return s
+end
+
+local function title_with_subtitle(val)
+  local raw = str(val)
+  local main, sub = raw:match("^(.-):%s*(.+)$")
+  if main and sub then
+    return '<span class="pub-title-main">' .. esc_html(main) .. ':</span> ' ..
+           '<span class="pub-title-sub">' .. esc_html(sub) .. '</span>'
+  end
+  return esc_html(raw)
+end
+
 -- Render metadata value to inline HTML (strips <p> wrapper)
 local function to_html(val)
   if not val then return "" end
@@ -49,7 +67,7 @@ local function render_papers(papers)
   for _, p in ipairs(papers) do
     local div_id = p.id and (' id="' .. str(p.id) .. '"') or ""
     local h = '<div class="pub-entry"' .. div_id .. '>\n'
-    h = h .. '<span class="pub-title"><strong>' .. to_html(p.title) .. '</strong></span><br>\n'
+    h = h .. '<span class="pub-title">' .. title_with_subtitle(p.title) .. '</span><br>\n'
     if p.coauthors then
       h = h .. '<span class="pub-authors">with ' .. to_html(p.coauthors) .. '</span><br>\n'
     end
@@ -71,7 +89,7 @@ local function render_other_pubs(pubs)
   local out = pandoc.Blocks{}
   for _, p in ipairs(pubs) do
     local h = '<div class="pub-entry">\n'
-    h = h .. '<span class="pub-title"><strong>' .. to_html(p.title) .. '</strong></span><br>\n'
+    h = h .. '<span class="pub-title">' .. title_with_subtitle(p.title) .. '</span><br>\n'
     if p.coauthors then
       h = h .. '<span class="pub-authors">with ' .. to_html(p.coauthors) .. '</span><br>\n'
     end

@@ -10,7 +10,7 @@ body {
   font-family: "Inconsolata", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   color: #222;
   background-color: #f4f3ef;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   line-height: 1.7;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
@@ -158,9 +158,9 @@ a:hover {
 /* ---------- Layout ---------- */
 
 main {
-  max-width: 600px;
+  max-width: 680px;
   margin: 0 auto;
-  padding: 4rem 1.5rem 8rem;
+  padding: 4rem 1.5rem 2rem;
 }
 
 #quarto-content {
@@ -222,10 +222,26 @@ main {
 .pub-entry .pub-title {
   font-family: inherit;
   font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  display: inline-block;
+  margin-bottom: 0.12rem;
   letter-spacing: 0.01em;
 }
 
+.pub-entry .pub-title-main {
+  color: #222;
+}
+
+.pub-entry .pub-title-sub {
+  display: block;
+  font-size: 0.8em;
+}
+
 .pub-entry .pub-authors {
+  font-size: 0.7rem;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
   color: #777;
 }
 

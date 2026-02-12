@@ -3,7 +3,7 @@ title: ""
 
 papers:
   - id: exit-paper
-    title: "Constrain with Their Feet: Jurisdictional Rivalry and State Erosion in Early Modern Japan"
+    title: "Constrain with Their Feet: Jurisdictional Conflict and State Erosion in Early Modern Japan"
     status: Under review
     pdf: "https://www.dropbox.com/scl/fi/d9txjmw7tlhdzj5kgll17/paper.pdf?rlkey=reuumezw4m4azo6rxuau36iup&dl=0"
     abstract: >-
