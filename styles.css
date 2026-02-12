@@ -10,7 +10,7 @@ body {
   font-family: "Inconsolata", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   color: #222;
   background-color: #f4f3ef;
-  font-size: 0.8rem;
+  font-size: 0.68rem;
   line-height: 1.7;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
@@ -222,18 +222,15 @@ main {
 .pub-entry .pub-title {
   font-family: inherit;
   font-weight: 400;
-  font-size: 0.82rem;
   letter-spacing: 0.01em;
 }
 
 .pub-entry .pub-authors {
   color: #777;
-  font-size: 0.75rem;
 }
 
 .pub-entry .pub-venue {
   display: inline-block;
-  font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #666;
@@ -244,18 +241,17 @@ main {
 
 .pub-entry .pub-status {
   display: inline-block;
-  font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #666;
   border: 1px solid #cfc9bc;
+  margin-top: 0.5rem;
   padding: 0.08rem 0.45rem;
   line-height: 1.2;
 }
 
 .pub-entry .pub-abstract p,
 .pub-entry p {
-  font-size: 0.72rem;
   color: #666;
   line-height: 1.6;
   margin-top: 0.5rem;
@@ -376,7 +372,6 @@ table {
   width: 100%;
   max-width: 840px;
   border-collapse: collapse;
-  font-size: 0.65rem;
   margin: 1rem 0 2rem;
 }
 
@@ -385,7 +380,6 @@ th {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.62rem;
   color: #aaa;
   padding: 0.5rem 0.8rem 0.5rem 0;
   border-bottom: 1px solid #ddd;

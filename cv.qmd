@@ -35,7 +35,6 @@ title: ""
 
 #quarto-document-content .cv-sub {
   color: #666;
-  font-size: 0.74rem;
 }
 
 @media (max-width: 767px) {
