@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap');
 
+:root {
+  --anchor-offset: 5.5rem;
+}
+
 /* ---------- Base ---------- */
 
 body {
@@ -14,6 +18,14 @@ body {
   line-height: 1.7;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-padding-top: var(--anchor-offset);
+}
+
+[id] {
+  scroll-margin-top: var(--anchor-offset);
 }
 
 strong,
@@ -103,7 +115,7 @@ a:hover {
 /* ---------- Navbar ---------- */
 
 .navbar {
-  background-color: transparent !important;
+  background-color: #f4f3ef !important;
   border-bottom: none;
   padding: 2rem 0 1.5rem;
 }
@@ -481,6 +493,9 @@ blockquote {
 /* ---------- Responsive ---------- */
 
 @media (max-width: 991.98px) {
+  :root {
+    --anchor-offset: 6.2rem;
+  }
   .navbar > .container-fluid,
   .navbar > .container-xxl {
     flex-direction: column;
