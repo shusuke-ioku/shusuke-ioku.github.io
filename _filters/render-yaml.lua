@@ -123,7 +123,7 @@ local function render_courses(courses)
   h = h .. '</tr>\n</thead>\n<tbody>\n'
   for _, c in ipairs(courses) do
     h = h .. '<tr>'
-    h = h .. '<td><strong>' .. str(c.course) .. '</strong></td>'
+    h = h .. '<td>' .. str(c.course) .. '</td>'
     h = h .. '<td>' .. str(c.term) .. '</td>'
     h = h .. '<td>' .. str(c.instructor) .. '</td>'
     h = h .. '<td>' .. str(c.school) .. '</td>'
