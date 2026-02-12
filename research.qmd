@@ -7,22 +7,7 @@ papers:
     status: Under review
     pdf: "https://www.dropbox.com/scl/fi/d9txjmw7tlhdzj5kgll17/paper.pdf?rlkey=reuumezw4m4azo6rxuau36iup&dl=0"
     abstract: >-
-      Throughout history, jurisdictional conflict among rival rulers has
-      constrained oppression by enabling subjects to pursue mass exit---often
-      to draw external intervention---as an alternative to directly confronting
-      authority. I document this mechanism in Tokugawa Japan, where a feudal
-      structure of domains with similar institutions but divergent tax burdens
-      competed for subjects' loyalty, creating an ideal setting to observe a
-      competitive market for governance. Leveraging newly digitized village-level
-      records of peasant resistance, I show that exposure to alternative
-      authority---measured by the ratio of a village's distance to its
-      home-domain capital relative to the nearest foreign-domain capital---induced
-      villages to opt for exit over confrontation. Moreover, domains facing more
-      intense jurisdictional rivalry---measured by the average distance ratio
-      across their villages---extracted lower taxes, accounting for alternative
-      mechanisms. These findings highlight mass exit as an *active* means of
-      popular constraint, surfacing a mechanism long overshadowed by
-      scholarship's emphasis on direct resistance and notions of passive exit.
+      Throughout history, jurisdictional conflict among rival rulers has constrained oppression by enabling subjects to pursue mass exit—often to draw external intervention—instead of directly confronting authority. I document this mechanism in Tokugawa Japan, where a feudal structure of domains with similar institutions but divergent extractive capacity competed for subjects' loyalty, creating an ideal setting to observe a competitive market for governance. Leveraging newly digitized village-level records of peasant resistance, I show that villages geographically more exposed to neighboring external authority opted for exit over confrontation. I further show that domains facing more intense jurisdictional conflict (i.e., those governing villages more exposed to external authority) extracted lower taxes, net of alternative mechanisms. This relationship, as theoretically predicted, depends on neighboring domains' labor absorption capacity. These findings highlight mass exit as an _active_ form of popular constraint, surfacing a mechanism long overshadowed by scholarship's emphasis on direct resistance and notions of passive exit.
 
   - id: fascist-paper
     title: "Political Shock and Social Mobilization: Evidence from Interwar Japan"
