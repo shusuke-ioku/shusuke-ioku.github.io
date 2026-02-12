@@ -22,7 +22,7 @@ website:
       - href: cv.qmd
         text: CV
       - href: misc.qmd
-        text: "TOOLS"
+        text: "MORE"
   page-footer:
     center: |
       &copy; 2026 Shusuke Ioku
