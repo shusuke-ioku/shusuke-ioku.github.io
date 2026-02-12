@@ -6,21 +6,115 @@ title: ""
 [Download PDF](files/cv.pdf){.btn .btn-outline-dark}
 :::
 
+```{=html}
+<style>
+#quarto-document-content .cv-list {
+  margin: 0 0 1.15rem;
+}
+
+#quarto-document-content .cv-row {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  column-gap: 1rem;
+  align-items: start;
+  margin-bottom: 0.55rem;
+}
+
+#quarto-document-content .cv-year {
+  color: #8d8d8d;
+  font-size: 0.67rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding-top: 0.12rem;
+}
+
+#quarto-document-content .cv-desc {
+  line-height: 1.55;
+}
+
+#quarto-document-content .cv-sub {
+  color: #666;
+  font-size: 0.74rem;
+}
+
+@media (max-width: 767px) {
+  #quarto-document-content .cv-row {
+    grid-template-columns: 1fr;
+    row-gap: 0.12rem;
+  }
+}
+</style>
+```
+
 ## Education {.cv-first-section}
 
-- **Ph.D. in Political Science**, University of Rochester, 2021--present\
-  Major: International Relations, Formal Theory\
-  Committee: Scott F. Abramson (chair), Hein Goemans, Casey Petroff, Sergio Montero
-- **M.A. in Political Science**, Waseda University, 2020--2021\
-  Advisors: Shuhei Kurizaki, Atsushi Tago
-- **M.P.P.**, University of Tokyo, 2015--2017
-- **B.A. in Philosophy**, University of Tokyo, 2011--2015
+::: {.cv-list}
+::: {.cv-row}
+::: {.cv-year}
+2021--present
+:::
+::: {.cv-desc}
+**Ph.D. in Political Science**, University of Rochester\
+<span class="cv-sub">Major: International Relations, Formal Theory</span>\
+<span class="cv-sub">Committee: Scott F. Abramson (chair), Hein Goemans, Casey Petroff, Sergio Montero</span>
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2020--2021
+:::
+::: {.cv-desc}
+**M.A. in Political Science**, Waseda University\
+<span class="cv-sub">Advisors: Shuhei Kurizaki, Atsushi Tago</span>
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2015--2017
+:::
+::: {.cv-desc}
+**M.P.P.**, University of Tokyo
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2011--2015
+:::
+::: {.cv-desc}
+**B.A. in Philosophy**, University of Tokyo
+:::
+:::
+:::
 
 ## Employment
 
-- Junior Research Fellow, Japan Institute of International Affairs, 2019--2020
-- Research Fellow, National Defense Academy, 2018--2019
-- Research Intern, Asia Pacific Initiative, 2015--2017
+::: {.cv-list}
+::: {.cv-row}
+::: {.cv-year}
+2019--2020
+:::
+::: {.cv-desc}
+Junior Research Fellow, Japan Institute of International Affairs
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2018--2019
+:::
+::: {.cv-desc}
+Research Fellow, National Defense Academy
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2015--2017
+:::
+::: {.cv-desc}
+Research Intern, Asia Pacific Initiative
+:::
+:::
+:::
 
 ## Publications
 
@@ -28,16 +122,74 @@ See [Research](research.qmd) page for full list.
 
 ## Awards
 
-- Best Paper/Presentation Award, Graduate Seminar, Dept. of Political Science, U of Rochester, 2024
-- Best Graduation Thesis Award, Waseda University, 2021
+::: {.cv-list}
+::: {.cv-row}
+::: {.cv-year}
+2024
+:::
+::: {.cv-desc}
+Best Paper/Presentation Award, Graduate Seminar, Dept. of Political Science, U of Rochester
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2021
+:::
+::: {.cv-desc}
+Best Graduation Thesis Award, Waseda University
+:::
+:::
+:::
 
 ## Presentations
 
-- Mobility and State Extraction in Early Modern Japan --- MPSA 2025; JSQPS 2024 Summer
-- When Freedom Backfires --- JSQPS 2025 Summer
-- Teppo Made Japan --- Waseda University, 2023
-- Empirical Model of Alliance Formation --- Waseda University, 2022
-- Threats and Assurances in Crisis Bargaining --- MPSA 2021
+::: {.cv-list}
+::: {.cv-row}
+::: {.cv-year}
+2025 / 2024
+:::
+::: {.cv-desc}
+Mobility and State Extraction in Early Modern Japan\
+<span class="cv-sub">MPSA 2025; JSQPS 2024 Summer</span>
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2025
+:::
+::: {.cv-desc}
+When Freedom Backfires\
+<span class="cv-sub">JSQPS 2025 Summer</span>
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2023
+:::
+::: {.cv-desc}
+Teppo Made Japan\
+<span class="cv-sub">Waseda University</span>
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2022
+:::
+::: {.cv-desc}
+Empirical Model of Alliance Formation\
+<span class="cv-sub">Waseda University</span>
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2021
+:::
+::: {.cv-desc}
+Threats and Assurances in Crisis Bargaining\
+<span class="cv-sub">MPSA</span>
+:::
+:::
+:::
 
 ## Professional Affiliations
 
