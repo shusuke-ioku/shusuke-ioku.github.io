@@ -102,7 +102,7 @@ other_publications:
   - title: "Extended Gray Zone Deterrence in the South China Sea"
     venue: "*Pacific Forum Issues & Insights*, Vol.22, pp.31--49"
 
-  - title: "外交の計量分析：外交使節制度の衰微と再生"
+  - title: "外交の計量分析: 外交使節制度の衰微と再生"
     coauthors: "Shuhei Kurizaki and Rui Asano"
     venue: "Book chapter in *国際関係研究の方法* (University of Tokyo Press, 2021)"
 
