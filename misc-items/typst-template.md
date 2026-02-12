@@ -2,7 +2,7 @@
 ### LaTeX-Like Typst Template
 
 `TeXst` is a Typst package for clean LaTeX-like academic paper formatting.  
-Use it for fast paper setup with a reusable `paper(...)` wrapper and academic defaults.
+Use it for fast paper setup with academic defaults.
 
 [Open Repository](https://github.com/shusuke-ioku/texst)
 :::
