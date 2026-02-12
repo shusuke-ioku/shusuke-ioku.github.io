@@ -5,6 +5,8 @@
 It bootstraps an analysis + paper workspace with agent folders.
 
 [Open Repository](https://github.com/shusuke-ioku/blank)
+
+<span class="item-updated">Last Updated: 2026-02-12</span>
 :::
 
 ::: {.item-more}

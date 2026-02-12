@@ -5,6 +5,8 @@
 Use it for fast paper setup with academic defaults.
 
 [Open Repository](https://github.com/shusuke-ioku/texst)
+
+<span class="item-updated">Last Updated: 2026-02-12</span>
 :::
 
 ::: {.item-more}

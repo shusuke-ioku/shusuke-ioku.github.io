@@ -400,6 +400,15 @@ main {
   margin-top: 0.3rem;
 }
 
+.item-updated {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #888;
+}
+
 /* ---------- Tables ---------- */
 
 table {
