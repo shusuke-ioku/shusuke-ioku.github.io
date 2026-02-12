@@ -127,7 +127,7 @@ See [Research](research.qmd) page for full list.
 2024
 :::
 ::: {.cv-desc}
-Best Paper/Presentation Award\
+Dept. of PolSci Graduate Seminar Best Paper/Presentation\
 <span class="cv-sub">University of Rochester</span>
 :::
 :::
