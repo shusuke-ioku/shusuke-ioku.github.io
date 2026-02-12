@@ -14,7 +14,7 @@ My research explores how societies respond to state authority—examining the wa
 
 ### Contact
 
-- **Email**: sioku[at]ur.rochester.edu
+- **Email**: sioku[at]ur.rochester.edu <button class="copy-email-btn" type="button" onclick="navigator.clipboard.writeText('sioku@ur.rochester.edu'); this.textContent='Copied'; setTimeout(() => this.textContent='Copy', 1200);">Copy</button>
 - **GitHub**: [shusuke-ioku](https://github.com/shusuke-ioku)
 
 :::
