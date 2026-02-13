@@ -28,3 +28,21 @@ courses:
 
 ::: {#courses}
 :::
+
+## Sample Lecture Slides
+
+Sample slides for the first class of Intro IR Theory:
+
+```{=html}
+<object
+  data="files/intro-ir-theory-class1-sample-slides.pdf"
+  type="application/pdf"
+  width="100%"
+  height="540"
+>
+  <p>
+    Your browser cannot display PDFs inline.
+    <a href="files/intro-ir-theory-class1-sample-slides.pdf">Open the sample slide deck</a>.
+  </p>
+</object>
+```
