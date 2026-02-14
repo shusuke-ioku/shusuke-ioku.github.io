@@ -31,7 +31,7 @@ courses:
 
 ## Sample Lecture Slides
 
-Sample slides for the first class of Intro IR Theory:
+Slides for the first session of Intro IR Theory:
 
 ```{=html}
 <object
