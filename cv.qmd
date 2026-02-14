@@ -57,7 +57,7 @@ title: ""
 ::: {.cv-desc}
 **Ph.D. in Political Science**, University of Rochester\
 <span class="cv-sub">Major: International Relations, Formal Theory</span>\
-<span class="cv-sub">Committee: Scott F. Abramson (chair), Hein Goemans, Casey Petroff, Sergio Montero</span>
+<span class="cv-sub">Committee: Scott F. Abramson (chair), Hein Goemans, Casey Petroff</span>
 :::
 :::
 ::: {.cv-row}

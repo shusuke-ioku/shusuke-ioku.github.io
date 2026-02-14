@@ -207,6 +207,28 @@ main {
   padding-top: 1rem;
 }
 
+/* ---------- Prose alignment ---------- */
+
+#quarto-document-content p {
+  text-wrap: pretty;
+}
+
+@media (min-width: 48rem) {
+  #quarto-document-content p {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  @supports (hyphenate-limit-chars: 7) {
+    #quarto-document-content p {
+      hyphenate-limit-chars: 7;
+    }
+  }
+}
+
 /* ---------- Footer ---------- */
 
 .nav-footer {
@@ -413,9 +435,14 @@ main {
   font-weight: 500;
 }
 
-.misc-card p {
+#quarto-document-content .misc-card p {
   margin-bottom: 0.7rem;
   color: #555;
+  text-align: left;
+  text-justify: auto;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 .misc-card pre {
