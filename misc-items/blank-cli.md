@@ -1,8 +1,7 @@
 ::: {.item-intro}
 ### blank CLI
 
-`blank` is a CLI scaffolder for research projects driven by agentic AI workflows.
-It bootstraps an analysis + paper workspace with agent folders.
+A CLI scaffolder for research projects driven by agentic AI workflows.
 
 [Open Repository](https://github.com/shusuke-ioku/blank)
 
