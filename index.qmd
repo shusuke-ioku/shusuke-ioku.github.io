@@ -10,7 +10,7 @@ title: ""
 
 Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester, specializing in historical political economy. I employ formal theory and micro-level historical data to study statebuilding and political extremism, focusing on how state subjects resist, negotiate with, or fall under the control of ruling powers.
 
-My current projects examine [mass exit](research.qmd#exit-paper) as a check on feudal authority in early modern Japan and the role of ideological narratives in driving [fascist mobilization](research.qmd#fascist-paper) in the interwar period.
+My current research explores how [mass exit](research.qmd#exit-paper) served as a constraint on feudal authority in early modern Japan, as well as how political and economic upheavals, coupled with ideological narratives, fueled [fascist mobilization](research.qmd#fascist-paper) during the interwar period.
 
 ### Contact
 
