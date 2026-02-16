@@ -1,7 +1,7 @@
 ::: {.item-intro}
 ### LaTeX-Like Typst Template
 
-A Typst package for clean LaTeX-like academic paper formatting.  
+A Typst package for minimal LaTeX-like academic paper formatting.  
 
 [Open Repository](https://github.com/shusuke-ioku/texst)
 
