@@ -10,23 +10,10 @@ papers:
       Throughout history, jurisdictional conflict among rival rulers has constrained oppression by enabling subjects to pursue mass exit—often to draw external intervention—instead of directly confronting authority. I document this mechanism in Tokugawa Japan, where a feudal structure of domains with similar institutions but divergent extractive capacity competed for subjects' loyalty, creating an ideal setting to observe a competitive market for governance. Leveraging newly digitized village-level records of peasant resistance, I show that villages geographically more exposed to neighboring external authority opted for exit over confrontation. I further show that domains facing more intense jurisdictional conflict (i.e., those governing villages more exposed to external authority) extracted lower taxes, net of alternative mechanisms. This relationship, as theoretically predicted, depends on neighboring domains' labor absorption capacity. These findings highlight mass exit as an _active_ form of popular constraint, surfacing a mechanism long overshadowed by scholarship's emphasis on direct resistance and notions of passive exit.
 
   - id: fascist-paper
-    title: "Political Shock and Social Mobilization: Evidence from Interwar Japan"
+    title: "Fascism from Above: Elite Instigation and Social Mobilization in Interwar Japan"
     status: Working paper
     abstract: >-
-      Political shocks are widely thought to spark social mobilization by
-      converting private grievances into a shared experience. Yet why the same
-      shock activates some constituencies and not others remains unclear. I
-      adjudicate between two accounts: material conditions that alter the costs
-      of mobilization, and ideological forces that shape how grievances are
-      interpreted and made politically legible. Exploiting the May 15 Incident
-      of 1932---a political assassination that marked a decisive turn toward
-      fascist mobilization in Japan---as a natural experiment, I examine which
-      populations responded to the shock. Using a difference-in-differences
-      design with monthly prefecture-level data on right-wing organization
-      density, I show that ideological determinants dominate: mobilization
-      surged only where populations were already embedded in a preexisting
-      ideological framework, while regions facing greater hardship or stronger
-      organizational infrastructure remained dormant.
+      Studies of fascist mobilization focus on society-side factors that make populations receptive to extremism. This paper shifts the focus to elite instigation. I argue that elite-supplied frames are the binding constraint: without a frame pre-installed by elites, neither economic hardship nor organizational infrastructure converts a shock into mobilization—but conditional on the frame, society-side grievances amplify the response. Using the assassination of Japan's prime minister in 1932 as a natural experiment and original monthly prefecture-level data, I show that right-wing mobilization surged only where elites had pre-installed a shared agrarian-nationalist frame, while regions with comparable society-side conditions remained inert. Within the treated region, greater economic damage amplified mobilization, revealing complementarity between elite-side and society-side factors. Mobilization began immediately yet showed no additional response when censorship was lifted and the perpetrators' motives became known—evidence that the shock operated as a contentless focal point, not as elite-to-mass transmission.
 
   - title: "Self-State Subversion: The Birth of Feudalism in Early Medieval Japan"
     status: Working paper
