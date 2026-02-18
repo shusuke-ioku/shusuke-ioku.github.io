@@ -2,18 +2,18 @@
 title: ""
 
 papers:
+  - id: fascist-paper
+    title: "Fascism from Above: Elite Instigation and Agrarian Radicalization in Interwar Japan"
+    status: Working paper
+    abstract: >-
+      When do economic crises trigger political radicalization? While previous research has concentrated on demand-side factors—such as economic deprivation and community density—this study highlights supply-side mechanisms, focusing on elite-driven instigation and ideological framing. To identify the causal effect of elite instigation, I leverage the May 1932 military coup in Japan as a natural experiment, employing novel monthly, prefecture-level data on right-wing organizations to isolate responses to distinct political shocks with temporal precision. The analysis reveals a sharp and immediate surge in mobilization, but only within the elite-primed Northeastern region. Competing society-side explanations—including deprivation, union density, rice dependency, and a range of placebo tests—do not account for these patterns. The findings underscore the centrality of the understudied supply-side mechanism as the crucial catalyst for radicalization.
+
   - id: exit-paper
     title: "Constrain with Their Feet: Jurisdictional Conflict and State Erosion in Early Modern Japan"
     status: Under review
     pdf: "https://www.dropbox.com/scl/fi/gzjidg29kvccwbf02x6w7/massExit.pdf?rlkey=7wcg9vo3y7ju9a3ozz97ybj5p&dl=0"
     abstract: >-
       Throughout history, jurisdictional conflict among rival rulers has constrained oppression by enabling subjects to pursue mass exit—often to draw external intervention—instead of directly confronting authority. I document this mechanism in Tokugawa Japan, where a feudal structure of domains with similar institutions but divergent extractive capacity competed for subjects' loyalty, creating an ideal setting to observe a competitive market for governance. Leveraging newly digitized village-level records of peasant resistance, I show that villages geographically more exposed to neighboring external authority opted for exit over confrontation. I further show that domains facing more intense jurisdictional conflict (i.e., those governing villages more exposed to external authority) extracted lower taxes, net of alternative mechanisms. This relationship, as theoretically predicted, depends on neighboring domains' labor absorption capacity. These findings highlight mass exit as an _active_ form of popular constraint, surfacing a mechanism long overshadowed by scholarship's emphasis on direct resistance and notions of passive exit.
-
-  - id: fascist-paper
-    title: "Fascism from Above: Elite Instigation and Agrarian Radicalization in Interwar Japan"
-    status: Working paper
-    abstract: >-
-      When do economic crises trigger political radicalization? While previous research has concentrated on demand-side factors—such as economic deprivation and community density—this study highlights supply-side mechanisms, focusing on elite-driven instigation and ideological framing. To identify the causal effect of elite instigation, I leverage the May 1932 military coup in Japan as a natural experiment, employing novel monthly, prefecture-level data on right-wing organizations to isolate responses to distinct political shocks with temporal precision. The analysis reveals a sharp and immediate surge in mobilization, but only within the elite-primed Northeastern region. Competing society-side explanations—including deprivation, union density, rice dependency, and a range of placebo tests—do not account for these patterns. The findings underscore the centrality of the understudied supply-side mechanism as the crucial catalyst for radicalization.
 
   - title: "Self-State Subversion: The Birth of Feudalism in Early Medieval Japan"
     status: Working paper
