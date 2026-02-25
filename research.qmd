@@ -15,7 +15,8 @@ papers:
     abstract: >-
       Throughout history, jurisdictional conflict among rival rulers has constrained oppression by enabling subjects to pursue mass exit—often to draw external intervention—instead of directly confronting authority. I document this mechanism in Tokugawa Japan, where a feudal structure of domains with similar institutions but divergent extractive capacity competed for subjects' loyalty, creating an ideal setting to observe a competitive market for governance. Leveraging newly digitized village-level records of peasant resistance, I show that villages geographically more exposed to neighboring external authority opted for exit over confrontation. I further show that domains facing more intense jurisdictional conflict (i.e., those governing villages more exposed to external authority) extracted lower taxes, net of alternative mechanisms. This relationship, as theoretically predicted, depends on neighboring domains' labor absorption capacity. These findings highlight mass exit as an _active_ form of popular constraint, surfacing a mechanism long overshadowed by scholarship's emphasis on direct resistance and notions of passive exit.
 
-  - title: "Self-State Subversion: The Birth of Feudalism in Early Medieval Japan"
+  - id: feudalism-paper
+    title: "Self-State Subversion: The Birth of Feudalism in Early Medieval Japan"
     status: Working paper
     abstract: >-
       While scholars broadly agree that feudal orders arose from the limitations
