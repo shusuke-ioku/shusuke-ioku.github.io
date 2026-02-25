@@ -3,10 +3,10 @@ title: ""
 
 papers:
   - id: fascist-paper
-    title: "Fascism from Above: Elite Instigation and Agrarian Radicalization in Interwar Japan"
+    title: "Revenge of the Periphery: Historical Roots of Fascism in Interwar Japan"
     status: Working paper
     abstract: >-
-      When do economic crises trigger political radicalization? While previous research has concentrated on demand-side factors—such as economic deprivation and community density—this study highlights supply-side mechanisms, focusing on elite-driven instigation and ideological framing. To identify the causal effect of elite instigation, I leverage the May 1932 military coup in Japan as a natural experiment, employing novel monthly, prefecture-level data on right-wing organizations to isolate responses to distinct political shocks with temporal precision. The analysis reveals a sharp and immediate surge in mobilization, but only within the elite-primed Northeastern region. Competing society-side explanations—including deprivation, union density, rice dependency, and a range of placebo tests—do not account for these patterns. The findings underscore the centrality of the understudied supply-side mechanism as the crucial catalyst for radicalization.
+      Places "left behind" by political exclusion and economic neglect are hotspots of radical-right mobilization, yet whether being peripheral itself—net of the economic conditions that correlate with it—drives right-wing organizing remains difficult to isolate. I exploit the May 1932 coup in Japan as a political shock in a setting that allows to separate peripheral status from economic distress. A difference-in-differences design—matching treated and control prefectures on core economic and agrarian conditions—on a novel monthly prefecture-level panel reveals a 95 percent surge in organizational density within twelve months, but only in the northern periphery—a region historically excluded from the Meiji state. Placebo tests on economically matched groups and perpetrators' home prefectures yield null effects. Moreover, new post-shock organizations in the periphery disproportionately upheld anti-democratic norms.
 
   - id: exit-paper
     title: "Constrain with Their Feet: Jurisdictional Conflict and State Erosion in Early Modern Japan"
