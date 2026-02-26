@@ -8,9 +8,9 @@ title: ""
 
 ::: {.about-text}
 
-Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I study historical political economy, combining formal theory with micro-level historical data to understand statebuilding and political extremism—particularly how the *periphery* of the state shaped state development and political radicalization.
+Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I study historical political economy, combining formal theory with micro-level historical data to understand statebuilding and political extremism, particularly how the *periphery* of the state shaped state development and political radicalization.
 
-My current research explores how peripheral regions politically excluded—rather than those economically marginalized—became hotspots of [fascist mobilization](research.qmd#fascist-paper) in interwar Japan. I also study how jurisdictional competition among feudal rulers in Tokugawa Japan enabled peripheral peasants to pursue [mass exit](research.qmd#exit-paper) instead of violent confrontation, constraining extractive authority from below. A third line of work examines how statebuilders in early medieval Japan deliberately hollowed out their own administrative apparatus by privatizing extraction, initiating [feudal fragmentation](research.qmd#feudalism-paper) most prominently in peripheral regions where central authority was weak.
+My current research explores how peripheral regions politically excluded, rather than those economically marginalized, became hotspots of [fascist mobilization](research.qmd#fascist-paper) in interwar Japan. I also study how jurisdictional competition among feudal rulers in Tokugawa Japan enabled peripheral peasants to pursue [mass exit](research.qmd#exit-paper) instead of violent confrontation, constraining extractive authority from below. A third line of work examines how statebuilders in early medieval Japan deliberately hollowed out their own administrative apparatus by privatizing extraction, initiating [feudal fragmentation](research.qmd#feudalism-paper) most prominently in peripheral regions where central authority was weak.
 
 ### Contact
 
