@@ -3,10 +3,10 @@ title: ""
 
 papers:
   - id: fascist-paper
-    title: "Backsliding Without Ballots"
+    title: "Grassroots Backsliding"
     status: Working paper
     abstract: >-
-      Democracies can backslide without radical parties or contested elections. I document such a path in interwar Japan, where radical military elites and civilian ideologues triggered a surge of anti-democratic organizations in civil society. Exploiting the May 1932 agrarian nationalist assassination as a focal shock in a monthly panel, I find a 93 percent increase in right-wing organizational density within two years---concentrated in the northern periphery, a region historically excluded from the Meiji governing coalition. Matching on economic conditions and placebo tests show that peripheral status, not correlated poverty or economic shocks, was the necessary precondition. These organizations strongly predicted right-wing vote share when radical-right parties first appeared on ballots, and post-shock organizations in the periphery disproportionately upheld autocratic values.
+      Political parties are thought to be democracy's gatekeepers. I show that even under a competitive, stable parliamentary system, radical elites can erode democracy through extraparliamentary mobilization. Using a monthly panel of local right-wing organizations in interwar Japan, where stable two-party cabinets governed, I find that the May 1932 assassination of the prime minister triggered a sharp increase in organizational density in peripheral regions primed by anti-centralist ideology. Organizations founded in these regions after the shock disproportionately espoused autocratic values. The resulting infrastructure supplied personnel for coup attempts, predicted rightward shifts in parliamentary rhetoric and radical-right vote shares, all before radical-right parties ever contested elections.
 
   - id: exit-paper
     title: "Constrain with Their Feet: Jurisdictional Conflict and State Erosion in Early Modern Japan"
