@@ -3,10 +3,10 @@ title: ""
 
 papers:
   - id: fascist-paper
-    title: "Grassroots Backsliding"
+    title: "Outflanking Democracy"
     status: Working paper
     abstract: >-
-      Political parties are thought to be democracy's gatekeepers. I show that even under a competitive, stable parliamentary system, radical elites can erode democracy through extraparliamentary mobilization. Using a monthly panel of local right-wing organizations in interwar Japan, where stable two-party cabinets governed, I find that the May 1932 assassination of the prime minister triggered a sharp increase in organizational density in peripheral regions primed by anti-centralist ideology. Organizations founded in these regions after the shock disproportionately espoused autocratic values. The resulting infrastructure supplied personnel for coup attempts, predicted rightward shifts in parliamentary rhetoric and radical-right vote shares, all before radical-right parties ever contested elections.
+      Political parties are thought to be democracy's gatekeepers. Yet even where strong party systems effectively block radical challengers from electoral competition, radical elites can undermine democracy through extraparliamentary mobilization. Drawing on a monthly panel of local right-wing organizations in interwar Japan---where two established parties controlled parliament---I show that the May 1932 assassination of the prime minister precipitated a sharp surge in organizational density within peripheral regions steeped in anti-centralist ideology. Organizations founded in these regions after the shock disproportionately embraced radical-autocratic values. This new infrastructure supplied the ideological foundation for subsequent coup attempts, ultimately enabling the military takeover of civilian government.
 
   - id: exit-paper
     title: "Constrain with Their Feet: Jurisdictional Conflict and State Erosion in Early Modern Japan"
