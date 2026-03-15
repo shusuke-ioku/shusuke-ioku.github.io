@@ -3,11 +3,11 @@ title: ""
 
 papers:
   - id: fascist-paper
-    title: "Outflanking Democracy"
+    title: "The Periphery Strikes Back: Autocratization through Civic Mobilization in Interwar Japan"
     status: Working paper
     pdf: "https://www.dropbox.com/scl/fi/stk68edwv6ys1tch935nh/paper.pdf?rlkey=szrark85vbj3s7l7o2w1l98ja&dl=0"
     abstract: >-
-      Political parties are considered democracy's gatekeepers, yet even strong party systems cannot always prevent backsliding. In interwar Japan---where two existing parties dominated parliament---radical elites eroded democracy through extraparliamentary mobilization. Using a difference-in-differences design on monthly prefecture-level data on the founding of local right-wing organizations, I show the May 1932 coup attempt caused a surge in such organizations in peripheral, anti-centralist regions. These new groups disproportionately embraced radical-autocratic doctrine that drove the 1936 coup, which in turn critically eroded democratic institutions, and MPs elected from regions with denser right-wing organizational presence made more pro-military and autocratic speeches.
+      Democratic breakdowns nearly always follow one of two paths: executive takeovers through the party system or military coups. In interwar Japan, both paths were blocked, yet democracy still fell. Radical elites who could neither capture the party system nor rally the mainstream military turned to civic mobilization. Using a difference-in-differences design on monthly prefecture-level data on the founding of local right-wing organizations, I show the May 1932 assassination of the prime minister caused a surge in such organizations in peripheral, anti-centralist regions. A triple-difference design confirms this surge was ideologically specific, and MPs from northern periphery prefectures shifted their parliamentary speech further rightward after the shock---linking grassroots mobilization to democratic erosion through the legislative arena and ultimately to the 1936 coup attempt that gave the military an absolute veto over cabinet formation.
 
   - id: exit-paper
     title: "Constrain with Their Feet: Jurisdictional Conflict and State Erosion in Early Modern Japan"
