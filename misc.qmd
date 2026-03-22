@@ -6,14 +6,14 @@ title: ""
 
 ::: {.misc-card}
 ::: {.misc-item-content}
-{{< include misc-items/typst-template.md >}}
+{{< include misc-items/r2.md >}}
 :::
 <button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
 :::
 
 ::: {.misc-card}
 ::: {.misc-item-content}
-{{< include misc-items/blank-cli.md >}}
+{{< include misc-items/r2-typst.md >}}
 :::
 <button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
 :::
