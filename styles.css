@@ -247,30 +247,8 @@ main {
 
 /* ---------- About page ---------- */
 
-.about-header {
-  display: flex;
-  gap: 3rem;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 3rem;
-}
-
-.about-header > p {
-  order: 2;
-}
-
-.about-header img { flex-shrink: 0; }
-
 .about-text {
-  flex: 1;
-  min-width: 240px;
-  order: 1;
-}
-
-.profile-photo {
-  max-width: 160px;
-  border: none;
-  filter: grayscale(100%);
+  margin-bottom: 3rem;
 }
 
 /* ---------- Publications ---------- */
@@ -544,17 +522,6 @@ blockquote {
   }
   .navbar .navbar-nav {
     justify-content: center;
-  }
-  .about-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-  }
-  .about-header > p {
-    order: 1;
-  }
-  .about-text {
-    order: 2;
   }
   .talk-entry {
     flex-direction: column;
