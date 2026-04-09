@@ -10,7 +10,7 @@ My current research explores how radical elites undermined democracy in interwar
 
 ### Contact
 
-- **Email**: <button class="copy-email-btn" type="button" onclick="navigator.clipboard.writeText('iokushusuke@gmail.com'); this.textContent='Copied'; setTimeout(() => this.textContent='Copy to Clipboard', 1200);">Copy</button>
+- **Email**: <button class="copy-email-btn" type="button" onclick="navigator.clipboard.writeText('iokushusuke@gmail.com'); this.textContent='Copied'; setTimeout(() => this.textContent='Copy', 1200);">Copy</button>
 - **GitHub**: [shusuke-ioku](https://github.com/shusuke-ioku)
 
 :::
