@@ -7,6 +7,8 @@
 --   ::: {#state-formation-and-state-building}
 --                    → renders from section metadata
 --   ::: {#other-pubs} → renders from `other_publications:` metadata
+--   ::: {#international-relations}
+--                    → renders from `international-relations:` metadata
 --   ::: {#talks}      → renders from `talks:` metadata
 --   ::: {#courses}    → renders from `courses:` metadata
 
@@ -171,6 +173,10 @@ function Pandoc(doc)
     meta,
     {"state-formation-and-state-building", "State Formation and State Building"}
   )
+  local international_relations_pubs = get_meta_value(
+    meta,
+    {"international-relations", "International Relations", "other_publications"}
+  )
   local all_papers = meta.papers or concat_lists(democracy_papers, state_building_papers)
 
   for _, block in ipairs(doc.blocks) do
@@ -185,8 +191,11 @@ function Pandoc(doc)
       elseif block.identifier == "state-formation-and-state-building" and state_building_papers then
         new_blocks:extend(render_papers(state_building_papers))
         replaced = true
-      elseif block.identifier == "other-pubs" and meta.other_publications then
-        new_blocks:extend(render_other_pubs(meta.other_publications))
+      elseif block.identifier == "other-pubs" and international_relations_pubs then
+        new_blocks:extend(render_other_pubs(international_relations_pubs))
+        replaced = true
+      elseif block.identifier == "international-relations" and international_relations_pubs then
+        new_blocks:extend(render_other_pubs(international_relations_pubs))
         replaced = true
       elseif block.identifier == "talks" and meta.talks then
         new_blocks:extend(render_talks(meta.talks))
