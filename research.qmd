@@ -1,7 +1,7 @@
 ---
 title: ""
 
-papers:
+Democracy:
   - id: fascist-paper
     title: "The Periphery Strikes Back: Democratic Breakdown through Civic Organizations in Interwar Japan"
     status: Working paper
@@ -9,6 +9,7 @@ papers:
     abstract: >-
       Parties and the military are democracy's two gatekeepers: when both exclude radicals, democracy should survive. Interwar Japan is a hard case for that expectation. Established parties dominated parliament and the mainstream military kept the radical faction in check, yet democracy failed. I argue radicals circumvented both gates through civic associations that created a grassroots ideological base and coordination networks for violence outside the chain of command, culminating in the February 1936 coup by the Imperial Way faction that precipitated democratic collapse. This strategy worked best in Japan's northern periphery, where long exclusion from the governing coalition made anti-center agrarian nationalism resonate. Using monthly data on over 4,000 right-wing organizations, I show the May 1932 assassination of the prime minister triggered a sharp surge in the periphery, disproportionately expanding organizations espousing Imperial Way doctrine. Also, periphery-linked personnel connected otherwise separate groups of conspirators in the 1936 coup through shared organizational membership.
 
+State Formation and State Building:
   - id: exit-paper
     title: "Mass Exit Across Competing Rulers: A Behavioral Foundation for Theories of State Development"
     status: Under review
@@ -35,6 +36,24 @@ papers:
       regions where central authority was weak but local administrative capacity
       remained strong.
 
+  - title: "Military Innovation and Territorial State Formation"
+    status: Work in progress
+    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
+    abstract: >-
+      Social scientists have argued that conflict and military technological
+      innovation fostered the formation of territorial states. While the
+      literature has predominantly examined European history, Japan's
+      Warring-States Period offers a unique context to test this claim; the
+      island country initially composed by more than 100 autonomous local
+      powerholders (daimyo) was exposed to an exogenous shock of military
+      innovation, an accidental importation of firearms in 1543, after which
+      the fragmented society rapidly transformed into a centralized state under
+      a singular authority. Using original grid-year datasets of battles,
+      castles, and territorial changes, we show (preliminary, descriptive)
+      results suggesting that the technological shock diminished defensive
+      advantage and made economic power better translate into battleground
+      success, thereby inducing small rulers to concede their autonomy.
+
   - title: "Hydraulic Civilizations"
     status: Work in progress
     abstract: >-
@@ -53,24 +72,6 @@ papers:
       loss. The result was exclusively found in earlier periods, where developing
       hydraulic systems was more costly. Additionally, polities with greater
       hydraulic dependence tended to develop more complex social structures.
-
-  - title: "Military Innovation and Territorial State Formation"
-    status: Work in progress
-    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
-    abstract: >-
-      Social scientists have argued that conflict and military technological
-      innovation fostered the formation of territorial states. While the
-      literature has predominantly examined European history, Japan's
-      Warring-States Period offers a unique context to test this claim; the
-      island country initially composed by more than 100 autonomous local
-      powerholders (daimyo) was exposed to an exogenous shock of military
-      innovation, an accidental importation of firearms in 1543, after which
-      the fragmented society rapidly transformed into a centralized state under
-      a singular authority. Using original grid-year datasets of battles,
-      castles, and territorial changes, we show (preliminary, descriptive)
-      results suggesting that the technological shock diminished defensive
-      advantage and made economic power better translate into battleground
-      success, thereby inducing small rulers to concede their autonomy.
 
 other_publications:
   - title: "Extended Gray Zone Deterrence in the South China Sea"
