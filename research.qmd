@@ -73,7 +73,7 @@ state-formation-and-state-building:
       hydraulic systems was more costly. Additionally, polities with greater
       hydraulic dependence tended to develop more complex social structures.
 
-other_publications:
+international-relations:
   - title: "Extended Gray Zone Deterrence in the South China Sea"
     venue: "*Pacific Forum Issues & Insights*, Vol.22, pp.31--49"
 
@@ -112,7 +112,7 @@ main {
 ::: {#state-formation-and-state-building}
 :::
 
-## Other Publications {.section-gap}
+## International Relations {.section-gap}
 
-::: {#other-pubs}
+::: {#international-relations}
 :::
