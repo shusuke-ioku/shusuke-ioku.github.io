@@ -2,6 +2,10 @@
 -- Reads YAML metadata and renders placeholder divs into HTML.
 -- Usage: add placeholder divs in .qmd files:
 --   ::: {#papers}    → renders papers list from `papers:` metadata
+--                      or combined research section metadata
+--   ::: {#democracy} → renders from `democracy:` / `Democracy:` metadata
+--   ::: {#state-formation-and-state-building}
+--                    → renders from section metadata
 --   ::: {#other-pubs} → renders from `other_publications:` metadata
 --   ::: {#talks}      → renders from `talks:` metadata
 --   ::: {#courses}    → renders from `courses:` metadata
@@ -9,6 +13,31 @@
 local function str(val)
   if not val then return "" end
   return pandoc.utils.stringify(val)
+end
+
+local function get_meta_value(meta, aliases)
+  for _, key in ipairs(aliases) do
+    local value = meta[key]
+    if value then
+      return value
+    end
+  end
+  return nil
+end
+
+local function concat_lists(...)
+  local merged = {}
+  for _, list in ipairs({...}) do
+    if list then
+      for _, item in ipairs(list) do
+        table.insert(merged, item)
+      end
+    end
+  end
+  if #merged == 0 then
+    return nil
+  end
+  return merged
 end
 
 local function esc_html(s)
@@ -137,12 +166,24 @@ end
 function Pandoc(doc)
   local meta = doc.meta
   local new_blocks = pandoc.Blocks{}
+  local democracy_papers = get_meta_value(meta, {"democracy", "Democracy"})
+  local state_building_papers = get_meta_value(
+    meta,
+    {"state-formation-and-state-building", "State Formation and State Building"}
+  )
+  local all_papers = meta.papers or concat_lists(democracy_papers, state_building_papers)
 
   for _, block in ipairs(doc.blocks) do
     local replaced = false
     if block.t == "Div" then
-      if block.identifier == "papers" and meta.papers then
-        new_blocks:extend(render_papers(meta.papers))
+      if block.identifier == "papers" and all_papers then
+        new_blocks:extend(render_papers(all_papers))
+        replaced = true
+      elseif block.identifier == "democracy" and democracy_papers then
+        new_blocks:extend(render_papers(democracy_papers))
+        replaced = true
+      elseif block.identifier == "state-formation-and-state-building" and state_building_papers then
+        new_blocks:extend(render_papers(state_building_papers))
         replaced = true
       elseif block.identifier == "other-pubs" and meta.other_publications then
         new_blocks:extend(render_other_pubs(meta.other_publications))
