@@ -151,6 +151,15 @@ Best Graduation Thesis Award\
 2026
 :::
 ::: {.cv-desc}
+Mass Exit Across Competing Rulers: A Behavioral Foundation for Theories of State Development\
+<span class="cv-sub">MPSA 2026</span>
+:::
+:::
+::: {.cv-row}
+::: {.cv-year}
+2026
+:::
+::: {.cv-desc}
 The Periphery Strikes Back\
 <span class="cv-sub">Japan Conference for Social Scientists, Yale University</span>
 :::
