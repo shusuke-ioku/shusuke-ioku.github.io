@@ -57,7 +57,7 @@ title: ""
 ::: {.cv-desc}
 **Ph.D. in Political Science**, University of Rochester\
 <span class="cv-sub">Major: International Relations, Formal Theory</span>\
-<span class="cv-sub">Committee: Scott F. Abramson (chair), Hein Goemans, Casey Petroff</span>
+<span class="cv-sub">Committee: Scott F. Abramson (chair), Casey Petroff, Hein Goemans</span>
 :::
 :::
 ::: {.cv-row}
@@ -146,6 +146,15 @@ Best Graduation Thesis Award\
 ## Presentations
 
 ::: {.cv-list}
+::: {.cv-row}
+::: {.cv-year}
+2026
+:::
+::: {.cv-desc}
+The Periphery Strikes Back\
+<span class="cv-sub">Japan Conference for Social Scientists, Yale University</span>
+:::
+:::
 ::: {.cv-row}
 ::: {.cv-year}
 2025 / 2024

@@ -82,6 +82,8 @@ international-relations:
     venue: "Book chapter in *国際関係研究の方法* (University of Tokyo Press, 2021)"
 
 talks:
+  - title: "The Periphery Strikes Back"
+    venue: "Japan Conference for Social Scientists, Yale University, 2026"
   - title: "Mobility and State Extraction in Early Modern Japan"
     venue: "MPSA 2025; JSQPS 2024 Summer"
   - title: "When Freedom Backfires"
