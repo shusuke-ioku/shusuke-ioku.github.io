@@ -2,14 +2,9 @@
 title: ""
 ---
 
-::: {.misc-grid}
+<!-- To hide an item, move its .md file into misc-items/private/ (not included below). -->
 
-::: {.misc-card}
-::: {.misc-item-content}
-{{< include misc-items/r2.md >}}
-:::
-<button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
-:::
+::: {.misc-grid}
 
 ::: {.misc-card}
 ::: {.misc-item-content}
