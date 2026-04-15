@@ -2,7 +2,7 @@
 title: ""
 ---
 
-<!-- To hide an item, move its .md file into misc-items/private/ (not included below). -->
+<!-- To hide an item, move its .md file into misc-items/_private/ (underscore = ignored by Quarto). -->
 
 ::: {.misc-grid}
 
