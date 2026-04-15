@@ -13,7 +13,7 @@ state-formation-and-state-building:
   - id: exit-paper
     title: "Mass Exit Across Competing Rulers: A Behavioral Foundation for Theories of State Development"
     status: Under review
-    pdf: "https://www.dropbox.com/scl/fi/r4aqvnsw7fmei274td0xp/paper.pdf?rlkey=r80yle4hv4ad2ypzgvdlq9kez&dl=0"
+    pdf: "https://www.dropbox.com/scl/fi/znf2gnvpv6sco0ipxpjbh/paper.pdf?rlkey=c7mon45ahs1rmf527hvjszt4g&dl=0"
     abstract: >-
       Many influential theories of state development rest on the premise that political fragmentation enables subjects to exit across competing rulers, thereby disciplining extraction. I provide direct village-level evidence for this behavioral premise from Tokugawa Japan (1615–1868), where nearly 300 feudal domains generated sharp variation in villages' proximity to rival rulers. A difference-in-differences design exploiting the Tokugawa shogunate's conversion of domains to direct rule shows that the emergence of a nearby, more attractive alternative authority raised the probability of mass exit by about 4 percentage points, with no rise in direct confrontation. Village-level records confirm that communities with greater access to outside rulers chose exit over confrontation, and domains more exposed to credible exit threats levied lower taxes. The findings microfound the premise that load-bears across the Great Divergence literature, fiscal-federalism arguments, and the cartel theory of the territorial state system.
 
