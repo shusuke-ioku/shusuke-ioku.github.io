@@ -5,7 +5,7 @@ Supporting a facility in Kobe where children with cancer and chronic illness can
 
 神戸ポートアイランドにある、小児がん・小児慢性特定疾病の子どもと家族が治療中も一緒に過ごせる滞在施設への寄付。
 
-[kemohouse.jp](https://www.kemohouse.jp/)
+[kemohouse.jp/support](https://www.kemohouse.jp/support/)
 
 <span class="item-updated">Last Updated: 2026-04-16</span>
 :::
