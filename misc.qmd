@@ -13,6 +13,13 @@ title: ""
 <button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
 :::
 
+::: {.misc-card}
+::: {.misc-item-content}
+{{< include misc-items/kemohouse-donation.md >}}
+:::
+<button class="misc-expand-toggle" type="button" aria-expanded="false">Expand</button>
+:::
+
 :::
 
 ```{=html}
