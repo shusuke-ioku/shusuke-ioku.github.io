@@ -70,11 +70,6 @@ development-of-government:
       control across a 149-year panel, tracing how the type and direction of
       a tie reflected the balance of power between its parties and what
       followed for conflict, succession, and territorial stability.
-
-other-publications:
-  - title: "外交の計量分析: 外交使節制度の衰微と再生"
-    coauthors: "Shuhei Kurizaki and Rui Asano"
-    venue: "Book chapter in *国際関係研究の方法* (University of Tokyo Press, 2021)"
 ---
 
 ```{=html}
@@ -98,9 +93,4 @@ main {
 ## The Development of Government
 
 ::: {#development-of-government}
-:::
-
-## Other Publications {.section-gap}
-
-::: {#other-publications}
 :::
