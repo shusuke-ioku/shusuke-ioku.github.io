@@ -26,6 +26,25 @@ algorithmic-politics:
       security should track both the fakes excluded and the composition of
       who remains.
 
+conflict:
+  - id: assurance-paper
+    title: "Threats and Assurances in Crisis Bargaining"
+    status: Work in progress
+    coauthors: "Shuhei Kurizaki"
+    abstract: >-
+      Coercive diplomacy rests on twin promises: a threat of punishment if the
+      target resists, and an assurance of restraint if it concedes. Crisis
+      bargaining theory and empirical work alike have concentrated on the
+      credibility of threats, yet resistance born of doubting the threat and
+      resistance born of doubting the assurance are observationally
+      equivalent, so coercion failure is mechanically attributed to weak
+      threats. We develop a crisis bargaining model that asks why a coercer
+      who genuinely intends to honor a concession can fail to convince the
+      target of it, and examine how the instruments that make threats
+      credible---military capability, mobilization, reputation---interact
+      with the credibility of the corresponding assurances, with implications
+      for why stronger states so often fail to coerce weaker opponents.
+
 development-of-government:
   - id: exit-paper
     title: "Mass Exit Under Governance Conflict: A Behavioral Foundation for Theories of State Development"
@@ -89,6 +108,11 @@ main {
 ## Algorithmic Technology and AI
 
 ::: {#algorithmic-politics}
+:::
+
+## Conflict
+
+::: {#conflict}
 :::
 
 ## The Development of Government
