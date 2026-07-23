@@ -26,7 +26,7 @@ algorithmic-politics:
       security should track both the fakes excluded and the composition of
       who remains.
 
-conflict:
+democracy:
   - id: fascist-paper
     title: "The Periphery Strikes Back: Democratic Breakdown through Civic Organizations in Interwar Japan"
     status: Working paper
@@ -49,28 +49,6 @@ conflict:
       count did not. The coordination architecture was built before May 1932,
       sat outside the chain of command, and outlasted the army's purge of its
       radicals.
-
-  - id: military-paper
-    title: "Military Innovation and Territorial State Formation"
-    status: Work in progress
-    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
-    abstract: >-
-      Social scientists have argued that conflict and military technological
-      innovation fostered the formation of territorial states. While the
-      literature has predominantly examined European history, Japan's
-      Warring-States Period offers a unique context to test this claim; the
-      island country initially composed by more than 100 autonomous local
-      powerholders (daimyo) was exposed to an exogenous shock of military
-      innovation, an accidental importation of firearms in 1543, after which
-      the fragmented society rapidly transformed into a centralized state under
-      a singular authority. Using original grid-year datasets of battles,
-      castles, and territorial changes, we show (preliminary, descriptive)
-      results suggesting that the technological shock diminished defensive
-      advantage and made economic power better translate into battleground
-      success, thereby inducing small rulers to concede their autonomy.
-
-  - title: "Extended Gray Zone Deterrence in the South China Sea"
-    venue: "*Pacific Forum Issues & Insights*, Vol.22, pp.31--49"
 
 development-of-government:
   - id: exit-paper
@@ -98,6 +76,25 @@ development-of-government:
       emerging local warrior elites occurred most prominently in peripheral
       regions where central authority was weak but local administrative capacity
       remained strong.
+
+  - id: military-paper
+    title: "Military Innovation and Territorial State Formation"
+    status: Work in progress
+    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
+    abstract: >-
+      Social scientists have argued that conflict and military technological
+      innovation fostered the formation of territorial states. While the
+      literature has predominantly examined European history, Japan's
+      Warring-States Period offers a unique context to test this claim; the
+      island country initially composed by more than 100 autonomous local
+      powerholders (daimyo) was exposed to an exogenous shock of military
+      innovation, an accidental importation of firearms in 1543, after which
+      the fragmented society rapidly transformed into a centralized state under
+      a singular authority. Using original grid-year datasets of battles,
+      castles, and territorial changes, we show (preliminary, descriptive)
+      results suggesting that the technological shock diminished defensive
+      advantage and made economic power better translate into battleground
+      success, thereby inducing small rulers to concede their autonomy.
 
   - id: hydraulic-paper
     title: "Hydraulic Civilizations"
@@ -147,12 +144,12 @@ societies collectively know?
 ::: {#algorithmic-politics}
 :::
 
-## Conflict
+## Democracy
 
-When does political competition turn violent, and how do shocks to the
-technology and organization of violence remake political order?
+When does political competition escape democracy's guardrails and turn
+violent?
 
-::: {#conflict}
+::: {#democracy}
 :::
 
 ## The Development of Government
