@@ -4,9 +4,15 @@ title: ""
 
 ::: {.about-text}
 
-Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I study historical political economy, combining formal theory with micro-level historical data to understand statebuilding and political extremism, particularly how the *periphery* of the state shaped state development and political radicalization.
+Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I work on political economy, combining formal theory with micro-level data—historical and contemporary—to study how technology reshapes political strategy. Three questions organize my research: what are the strategic implications of algorithmic technology and artificial intelligence; when does political competition turn violent; and how does government develop, broadly defined.
 
-My current research explores how radical elites undermined democracy in interwar Japan by organizing through [civic associations](research.qmd#fascist-paper), particularly in the northern periphery where anti-center sentiment ran deep. I also study how jurisdictional competition among feudal rulers in Tokugawa Japan enabled peripheral peasants to pursue [mass exit](research.qmd#exit-paper) instead of violent confrontation, constraining extractive authority from below. A third line of work examines how statebuilders in early medieval Japan deliberately hollowed out their own administrative apparatus by privatizing extraction, initiating [feudal fragmentation](research.qmd#feudalism-paper) most prominently in peripheral regions where central authority was weak.
+On the first, I develop [a formal framework](research.qmd#verification-paper) for how AI-powered influence operations degrade what online communities collectively know. When a community defends itself with identity verification, it screens out fabricated voices at the price of silencing its best-informed members—so an influence operation can deplete collective knowledge without deploying a single fake. The paper is currently under review.
+
+On conflict, I study how radical elites broke interwar Japan's democracy by [organizing violence through civic associations](research.qmd#fascist-paper) that circumvented both parties and the military, and how a shock to military technology—the accidental arrival of firearms in 1543—[remade territorial competition](research.qmd#military-paper) among Japan's warring rulers and drove centralization.
+
+On the development of government, I examine how subjects' ability to [exit across competing rulers](research.qmd#exit-paper) disciplined extraction in Tokugawa Japan, why early medieval statebuilders [dismantled their own administrative apparatus](research.qmd#feudalism-paper) and set feudalism in motion, and how [hydraulic management](research.qmd#hydraulic-paper) shaped which early states endured.
+
+Across these settings the common thread is strategic: rulers, elites, and ordinary people adapting to new technologies of information, violence, and extraction—and political order changing as a result.
 
 ### Contact
 

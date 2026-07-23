@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Shusuke Ioku"
-  description: "Research portfolio"
+  description: "Political economy of algorithmic technology and AI, conflict, and the development of government"
   site-url: https://shusuke-ioku.github.io
   search: false
   navbar:

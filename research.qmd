@@ -1,15 +1,78 @@
 ---
 title: ""
 
-democracy:
+algorithmic-politics:
+  - id: verification-paper
+    title: "Verifying Away Collective Knowledge"
+    status: Under review
+    pdf: "files/verification_paper.pdf"
+    abstract: >-
+      Generative AI lets influence operations fabricate apparent widespread
+      support cheaply. I develop a theoretical framework for online forums
+      involving politically restricted information to isolate a tradeoff
+      between authenticity and accuracy that generative AI exacerbates.
+      Citizens collectively choose verification, then decide among anonymous
+      posting, verified posting, and silence. When attackers can flood
+      anonymous forums, citizens adopt the least verification that deters
+      them. Because greater access raises knowledge and exposure,
+      verification exposes better-informed sources to greater punishment risk
+      and, unlike in canonical screening models, excludes the best-informed,
+      hence most strongly motivated to contribute, first. Citizens value
+      collective accuracy, but individual contributions remain externalities;
+      private exposure risk therefore makes the forum more authentic but less
+      informative, allowing the influence operation to deplete collective
+      knowledge without deployment or deception. Detection and per-post costs
+      reduce reliance on identity verification. Evaluations of epistemic
+      security should track both the fakes excluded and the composition of
+      who remains.
+
+conflict:
   - id: fascist-paper
     title: "The Periphery Strikes Back: Democratic Breakdown through Civic Organizations in Interwar Japan"
     status: Working paper
     pdf: "files/fascism_paper.pdf"
     abstract: >-
-      Parties and the military are democracy's two gatekeepers: when both exclude radicals, democracy should survive. Interwar Japan defies this expectation. Established parties held parliament and the military contained its radical faction, yet democracy collapsed. Radicals circumvented both gates by building civic organizations. Using monthly prefecture-level data on right-wing associations, I find that the May 1932 prime-ministerial assassination triggered a durable organizational surge in a peripheral region excluded from the governing coalition since 1868, concentrated in associations propagating party dissolution and direct imperial rule. Above this base sat a smaller metropolitan layer bundling officers across army divisions with civilian ideologues and peripherally radicalized civilians—under 5% of the right-wing universe but a third of all violence-supplying organizations. Cross-divisional bridging predicted violence supply where raw officer count did not. The coordination architecture was built before May 1932, sat outside the chain of command, and outlasted the army's purge of its radicals.
+      Parties and the military are democracy's two gatekeepers: when both
+      exclude radicals, democracy should survive. Interwar Japan defies this
+      expectation. Established parties held parliament and the military
+      contained its radical faction, yet democracy collapsed. Radicals
+      circumvented both gates by building civic organizations. Using monthly
+      prefecture-level data on right-wing associations, I find that the May
+      1932 prime-ministerial assassination triggered a durable organizational
+      surge in a peripheral region excluded from the governing coalition
+      since 1868, concentrated in associations propagating party dissolution
+      and direct imperial rule. Above this base sat a smaller metropolitan
+      layer bundling officers across army divisions with civilian ideologues
+      and peripherally radicalized civilians—under 5% of the right-wing
+      universe but a third of all violence-supplying organizations.
+      Cross-divisional bridging predicted violence supply where raw officer
+      count did not. The coordination architecture was built before May 1932,
+      sat outside the chain of command, and outlasted the army's purge of its
+      radicals.
 
-state-formation-and-state-building:
+  - id: military-paper
+    title: "Military Innovation and Territorial State Formation"
+    status: Work in progress
+    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
+    abstract: >-
+      Social scientists have argued that conflict and military technological
+      innovation fostered the formation of territorial states. While the
+      literature has predominantly examined European history, Japan's
+      Warring-States Period offers a unique context to test this claim; the
+      island country initially composed by more than 100 autonomous local
+      powerholders (daimyo) was exposed to an exogenous shock of military
+      innovation, an accidental importation of firearms in 1543, after which
+      the fragmented society rapidly transformed into a centralized state under
+      a singular authority. Using original grid-year datasets of battles,
+      castles, and territorial changes, we show (preliminary, descriptive)
+      results suggesting that the technological shock diminished defensive
+      advantage and made economic power better translate into battleground
+      success, thereby inducing small rulers to concede their autonomy.
+
+  - title: "Extended Gray Zone Deterrence in the South China Sea"
+    venue: "*Pacific Forum Issues & Insights*, Vol.22, pp.31--49"
+
+development-of-government:
   - id: exit-paper
     title: "Mass Exit Under Governance Conflict: A Behavioral Foundation for Theories of State Development"
     status: Under review
@@ -36,25 +99,8 @@ state-formation-and-state-building:
       regions where central authority was weak but local administrative capacity
       remained strong.
 
-  - title: "Military Innovation and Territorial State Formation"
-    status: Work in progress
-    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
-    abstract: >-
-      Social scientists have argued that conflict and military technological
-      innovation fostered the formation of territorial states. While the
-      literature has predominantly examined European history, Japan's
-      Warring-States Period offers a unique context to test this claim; the
-      island country initially composed by more than 100 autonomous local
-      powerholders (daimyo) was exposed to an exogenous shock of military
-      innovation, an accidental importation of firearms in 1543, after which
-      the fragmented society rapidly transformed into a centralized state under
-      a singular authority. Using original grid-year datasets of battles,
-      castles, and territorial changes, we show (preliminary, descriptive)
-      results suggesting that the technological shock diminished defensive
-      advantage and made economic power better translate into battleground
-      success, thereby inducing small rulers to concede their autonomy.
-
-  - title: "Hydraulic Civilizations"
+  - id: hydraulic-paper
+    title: "Hydraulic Civilizations"
     status: Work in progress
     abstract: >-
       Although agricultural surplus was vital for early state formation, it also
@@ -73,29 +119,10 @@ state-formation-and-state-building:
       hydraulic systems was more costly. Additionally, polities with greater
       hydraulic dependence tended to develop more complex social structures.
 
-international-relations:
-  - title: "Extended Gray Zone Deterrence in the South China Sea"
-    venue: "*Pacific Forum Issues & Insights*, Vol.22, pp.31--49"
-
+other-publications:
   - title: "外交の計量分析: 外交使節制度の衰微と再生"
     coauthors: "Shuhei Kurizaki and Rui Asano"
     venue: "Book chapter in *国際関係研究の方法* (University of Tokyo Press, 2021)"
-
-talks:
-  - title: "Mass Exit Across Competing Rulers"
-    venue: "MPSA 2026"
-  - title: "The Periphery Strikes Back"
-    venue: "Japan Conference for Social Scientists, Yale University, 2026"
-  - title: "Mobility and State Extraction in Early Modern Japan"
-    venue: "MPSA 2025; JSQPS 2024 Summer"
-  - title: "When Freedom Backfires"
-    venue: "JSQPS 2025 Summer"
-  - title: "Teppo Made Japan"
-    venue: "Waseda University, 2023"
-  - title: "Empirical Model of Alliance Formation"
-    venue: "Waseda University, 2022"
-  - title: "Threats and Assurances in Crisis Bargaining"
-    venue: "MPSA 2021"
 ---
 
 ```{=html}
@@ -106,17 +133,37 @@ main {
 </style>
 ```
 
-## Democracy
+I study the political economy of technology and governance: how new
+technologies—from firearms to generative AI—reshape the strategic contests
+through which political order is built, defended, and undone. The work
+combines formal theory with micro-level data, historical and contemporary.
 
-::: {#democracy}
+## Algorithmic Technology and AI
+
+How do algorithmic technologies and artificial intelligence change the
+strategic logic of political competition—especially the contest over what
+societies collectively know?
+
+::: {#algorithmic-politics}
 :::
 
-## State Formation and State Building
+## Conflict
 
-::: {#state-formation-and-state-building}
+When does political competition turn violent, and how do shocks to the
+technology and organization of violence remake political order?
+
+::: {#conflict}
 :::
 
-## International Relations {.section-gap}
+## The Development of Government
 
-::: {#international-relations}
+How does government develop, broadly defined—from the birth and breakdown of
+feudal orders to the consolidation of the territorial state?
+
+::: {#development-of-government}
+:::
+
+## Other Publications {.section-gap}
+
+::: {#other-publications}
 :::
