@@ -79,35 +79,6 @@ title: ""
 :::
 :::
 
-## Employment
-
-::: {.cv-list}
-::: {.cv-row}
-::: {.cv-year}
-2019--2020
-:::
-::: {.cv-desc}
-Junior Research Fellow, Japan Institute of International Affairs
-:::
-:::
-::: {.cv-row}
-::: {.cv-year}
-2018--2019
-:::
-::: {.cv-desc}
-Research Fellow, National Defense Academy
-:::
-:::
-::: {.cv-row}
-::: {.cv-year}
-2015--2017
-:::
-::: {.cv-desc}
-Research Intern, Asia Pacific Initiative
-:::
-:::
-:::
-
 ## Publications
 
 See [Research](research.qmd) page for full list.
