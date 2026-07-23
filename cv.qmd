@@ -71,14 +71,6 @@ title: ""
 :::
 ::: {.cv-row}
 ::: {.cv-year}
-2015--2017
-:::
-::: {.cv-desc}
-**M.P.P.**, University of Tokyo
-:::
-:::
-::: {.cv-row}
-::: {.cv-year}
 2011--2015
 :::
 ::: {.cv-desc}

@@ -26,30 +26,6 @@ algorithmic-politics:
       security should track both the fakes excluded and the composition of
       who remains.
 
-democracy:
-  - id: fascist-paper
-    title: "The Periphery Strikes Back: Democratic Breakdown through Civic Organizations in Interwar Japan"
-    status: Working paper
-    pdf: "files/fascism_paper.pdf"
-    abstract: >-
-      Parties and the military are democracy's two gatekeepers: when both
-      exclude radicals, democracy should survive. Interwar Japan defies this
-      expectation. Established parties held parliament and the military
-      contained its radical faction, yet democracy collapsed. Radicals
-      circumvented both gates by building civic organizations. Using monthly
-      prefecture-level data on right-wing associations, I find that the May
-      1932 prime-ministerial assassination triggered a durable organizational
-      surge in a peripheral region excluded from the governing coalition
-      since 1868, concentrated in associations propagating party dissolution
-      and direct imperial rule. Above this base sat a smaller metropolitan
-      layer bundling officers across army divisions with civilian ideologues
-      and peripherally radicalized civilians—under 5% of the right-wing
-      universe but a third of all violence-supplying organizations.
-      Cross-divisional bridging predicted violence supply where raw officer
-      count did not. The coordination architecture was built before May 1932,
-      sat outside the chain of command, and outlasted the army's purge of its
-      radicals.
-
 development-of-government:
   - id: exit-paper
     title: "Mass Exit Under Governance Conflict: A Behavioral Foundation for Theories of State Development"
@@ -58,43 +34,23 @@ development-of-government:
     abstract: >-
       Many influential theories of state development assume that political fragmentation enables subjects to exit across competing rulers, thereby disciplining extraction, yet direct evidence that fragmentation shapes how subjects resist remains scarce. I show this in Tokugawa Japan (1615–1868), where nearly 300 feudal domains operated under the central Tokugawa shogunate, generating sharp variation in villages' exposure to governance conflict. In a difference-in-differences design, the shogunate's conversion of domains to direct rule raised the probability of nearby mass exit by 4 percentage points with no rise in direct confrontation, and a grid-year panel confirms the pattern. Among revolting villages, greater exposure to governance conflict tilted resistance toward exit over confrontation. Domains more exposed to governance conflict levied lower taxes, especially where neighboring domains could absorb migrants. The findings microfound a premise that load-bears across the Great Divergence literature, fiscal-federalism arguments, and the cartel theory of the territorial state system.
 
-  - id: feudalism-paper
-    title: "Self-State Subversion: The Birth of Feudalism in Early Medieval Japan"
-    status: Working paper
-    abstract: >-
-      While scholars broadly agree that feudal orders arose from the limitations
-      of centralized state control, much less is known about the mechanisms
-      through which this process began and unfolded---specifically, who fostered
-      the fragmentation of state power and where it originated. I propose a
-      theoretical framework identifying the conditions under which statebuilders
-      deliberately hollow out their own administrative apparatus by privatizing
-      extraction: granting fiscal immunities in exchange for a share of the
-      returns. I evaluate the model's implications using the case of early
-      medieval Japan, where varying degrees of feudalization across regions can
-      be systematically observed through estate commendations to the imperial
-      court. Consistent with the theory, I find that estate commendation by
-      emerging local warrior elites occurred most prominently in peripheral
-      regions where central authority was weak but local administrative capacity
-      remained strong.
-
-  - id: military-paper
-    title: "Military Innovation and Territorial State Formation"
+  - id: kinship-paper
+    title: "Kinship, Conflict, and Territorial Stability in Warring-States Japan"
     status: Work in progress
-    coauthors: "Scott Abramson, Sergio Montero, and Michael Gibilisco"
     abstract: >-
-      Social scientists have argued that conflict and military technological
-      innovation fostered the formation of territorial states. While the
-      literature has predominantly examined European history, Japan's
-      Warring-States Period offers a unique context to test this claim; the
-      island country initially composed by more than 100 autonomous local
-      powerholders (daimyo) was exposed to an exogenous shock of military
-      innovation, an accidental importation of firearms in 1543, after which
-      the fragmented society rapidly transformed into a centralized state under
-      a singular authority. Using original grid-year datasets of battles,
-      castles, and territorial changes, we show (preliminary, descriptive)
-      results suggesting that the technological shock diminished defensive
-      advantage and made economic power better translate into battleground
-      success, thereby inducing small rulers to concede their autonomy.
+      When no third party can enforce bargains between armed rulers, families
+      become instruments of statecraft. I study how warring houses in Sengoku
+      Japan (1467--1615) engineered kinship---political marriage, adoption,
+      and hostage exchange---to assemble and discipline coalitions, asking
+      whether these ties created political order or instead reorganized
+      coercion: securing peace among coalition insiders while redirecting
+      violence toward outsiders and, under power asymmetry, channeling weaker
+      houses into absorption by stronger, previously tied lineages. I
+      construct an original dataset linking over 600 documented kinship ties
+      among more than 200 warlord clans to conflict records and territorial
+      control across a 149-year panel, tracing how the type and direction of
+      a tie reflected the balance of power between its parties and what
+      followed for conflict, succession, and territorial stability.
 
   - id: hydraulic-paper
     title: "Hydraulic Civilizations"
@@ -130,32 +86,12 @@ main {
 </style>
 ```
 
-I study the political economy of technology and governance: how new
-technologies—from firearms to generative AI—reshape the strategic contests
-through which political order is built, defended, and undone. The work
-combines formal theory with micro-level data, historical and contemporary.
-
 ## Algorithmic Technology and AI
-
-How do algorithmic technologies and artificial intelligence change the
-strategic logic of political competition—especially the contest over what
-societies collectively know?
 
 ::: {#algorithmic-politics}
 :::
 
-## Democracy
-
-When does political competition escape democracy's guardrails and turn
-violent?
-
-::: {#democracy}
-:::
-
 ## The Development of Government
-
-How does government develop, broadly defined—from the birth and breakdown of
-feudal orders to the consolidation of the territorial state?
 
 ::: {#development-of-government}
 :::
