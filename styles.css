@@ -300,11 +300,21 @@ main {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #666;
-  border: 1px solid #cfc9bc;
+  font-size: 0.66rem;
+  color: #8a867c;
   margin-top: 0.5rem;
-  padding: 0.08rem 0.45rem;
   line-height: 1.2;
+}
+
+.pub-entry .pub-status::before {
+  content: "";
+  display: inline-block;
+  width: 0.35em;
+  height: 0.35em;
+  margin-right: 0.4em;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.55;
 }
 
 .pub-entry .pub-abstract p,

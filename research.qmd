@@ -1,6 +1,32 @@
 ---
 title: ""
 
+development-of-government:
+  - id: exit-paper
+    title: "Mass Exit Under Governance Conflict: A Behavioral Foundation for Theories of State Development"
+    status: "Revise and resubmit, *International Organization*"
+    pdf: "files/exit_paper.pdf"
+    abstract: >-
+      Many influential theories of state development assume that political fragmentation enables subjects to exit across competing rulers, thereby disciplining extraction, yet direct evidence that fragmentation shapes how subjects resist remains scarce. I show this in Tokugawa Japan (1615–1868), where nearly 300 feudal domains operated under the central Tokugawa shogunate, generating sharp variation in villages' exposure to governance conflict. In a difference-in-differences design, the shogunate's conversion of domains to direct rule placed a shogunal appeals route within reach of surrounding villages and raised the probability of nearby mass exit by 4 percentage points with no rise in direct confrontation; a grid-year panel confirms the pattern. Among revolting villages, greater exposure to governance conflict tilted resistance toward exit over confrontation. Domains more exposed to governance conflict levied lower taxes, especially where neighboring domains could absorb migrants. The findings microfound a premise that load-bears across the Great Divergence literature, fiscal-federalism arguments, and the cartel theory of the territorial state system.
+
+  - id: kinship-paper
+    title: "Kinship, Conflict, and Territorial Stability in Warring-States Japan"
+    status: Work in progress
+    abstract: >-
+      When no third party can enforce bargains between armed rulers, families
+      become instruments of statecraft. I study how warring houses in Sengoku
+      Japan (1467--1615) engineered kinship---political marriage, adoption,
+      and hostage exchange---to assemble and discipline coalitions, asking
+      whether these ties created political order or instead reorganized
+      coercion: securing peace among coalition insiders while redirecting
+      violence toward outsiders and, under power asymmetry, channeling weaker
+      houses into absorption by stronger, previously tied lineages. I
+      construct an original dataset linking over 600 documented kinship ties
+      among more than 200 warlord clans to conflict records and territorial
+      control across a 149-year panel, tracing how the type and direction of
+      a tie reflected the balance of power between its parties and what
+      followed for conflict, succession, and territorial stability.
+
 algorithmic-politics:
   - id: verification-paper
     title: "Verifying Away Collective Knowledge"
@@ -44,32 +70,6 @@ conflict:
       credible---military capability, mobilization, reputation---interact
       with the credibility of the corresponding assurances, with implications
       for why stronger states so often fail to coerce weaker opponents.
-
-development-of-government:
-  - id: exit-paper
-    title: "Mass Exit Under Governance Conflict: A Behavioral Foundation for Theories of State Development"
-    status: "Revise and resubmit, *International Organization*"
-    pdf: "files/exit_paper.pdf"
-    abstract: >-
-      Many influential theories of state development assume that political fragmentation enables subjects to exit across competing rulers, thereby disciplining extraction, yet direct evidence that fragmentation shapes how subjects resist remains scarce. I show this in Tokugawa Japan (1615–1868), where nearly 300 feudal domains operated under the central Tokugawa shogunate, generating sharp variation in villages' exposure to governance conflict. In a difference-in-differences design, the shogunate's conversion of domains to direct rule placed a shogunal appeals route within reach of surrounding villages and raised the probability of nearby mass exit by 4 percentage points with no rise in direct confrontation; a grid-year panel confirms the pattern. Among revolting villages, greater exposure to governance conflict tilted resistance toward exit over confrontation. Domains more exposed to governance conflict levied lower taxes, especially where neighboring domains could absorb migrants. The findings microfound a premise that load-bears across the Great Divergence literature, fiscal-federalism arguments, and the cartel theory of the territorial state system.
-
-  - id: kinship-paper
-    title: "Kinship, Conflict, and Territorial Stability in Warring-States Japan"
-    status: Work in progress
-    abstract: >-
-      When no third party can enforce bargains between armed rulers, families
-      become instruments of statecraft. I study how warring houses in Sengoku
-      Japan (1467--1615) engineered kinship---political marriage, adoption,
-      and hostage exchange---to assemble and discipline coalitions, asking
-      whether these ties created political order or instead reorganized
-      coercion: securing peace among coalition insiders while redirecting
-      violence toward outsiders and, under power asymmetry, channeling weaker
-      houses into absorption by stronger, previously tied lineages. I
-      construct an original dataset linking over 600 documented kinship ties
-      among more than 200 warlord clans to conflict records and territorial
-      control across a 149-year panel, tracing how the type and direction of
-      a tie reflected the balance of power between its parties and what
-      followed for conflict, succession, and territorial stability.
 ---
 
 ```{=html}
@@ -80,6 +80,11 @@ main {
 </style>
 ```
 
+## State Development
+
+::: {#development-of-government}
+:::
+
 ## Algorithmic Technology and AI
 
 ::: {#algorithmic-politics}
@@ -88,9 +93,4 @@ main {
 ## Conflict
 
 ::: {#conflict}
-:::
-
-## The Development of Government
-
-::: {#development-of-government}
 :::
