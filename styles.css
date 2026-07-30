@@ -306,17 +306,6 @@ main {
   line-height: 1.2;
 }
 
-.pub-entry .pub-status::before {
-  content: "";
-  display: inline-block;
-  width: 0.35em;
-  height: 0.35em;
-  margin-right: 0.4em;
-  border-radius: 50%;
-  background: currentColor;
-  opacity: 0.55;
-}
-
 .pub-entry .pub-abstract p,
 .pub-entry p {
   color: #666;
