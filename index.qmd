@@ -4,7 +4,7 @@ title: ""
 
 ::: {.about-text}
 
-Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I broadly work on political economy, combining formal theory with micro-level data to study the strategic implications of algorithmic technology and AI, conflict, and the development of government. In [recent work under review](research.qmd#verification-paper), I model how AI-powered influence operations degrade what online communities collectively know. Other projects examine why [coercive diplomacy fails](research.qmd#assurance-paper) when threats are credible but assurances are not, how Sengoku warlords [engineered kinship ties](research.qmd#kinship-paper) to build coalitions and absorb rivals, and how [mass exit across competing rulers](research.qmd#exit-paper) disciplined extraction in Tokugawa Japan.
+Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I work on the political economy of conflict, broadly construed: how states develop, how they fight one another, and how information operations shape what political communities know. I study these questions with formal theory and micro-level historical data. You can find my current projects on the [research page](research.qmd).
 
 ### Contact
 
