@@ -85,12 +85,12 @@ main {
 ::: {#development-of-government}
 :::
 
-## Algorithmic Technology and AI
+## Information Operations
 
 ::: {#algorithmic-politics}
 :::
 
-## Conflict
+## Interstate Conflict
 
 ::: {#conflict}
 :::
