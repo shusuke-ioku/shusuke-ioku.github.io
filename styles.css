@@ -8,8 +8,8 @@
   --anchor-offset: 5.5rem;
   /* Bootstrap declares :root{font-size:var(--bs-root-font-size)} at 17px, which
      outranks a plain `html` selector. Every font size below is in rem, so
-     scaling this variable scales all text: 17px * 1.5 = 25.5px. */
-  --bs-root-font-size: 25.5px;
+     scaling this variable scales all text: 17px * 1.25 = 21.25px. */
+  --bs-root-font-size: 21.25px;
 }
 
 /* ---------- Base ---------- */
