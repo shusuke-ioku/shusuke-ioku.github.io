@@ -4,7 +4,7 @@ title: ""
 
 ::: {.about-text}
 
-Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I work on the political economy of conflict, broadly construed: state development, interstate conflict, and information operations. I study these topics with formal theory and micro-level historical data. You can find my current projects on the [research page](research.qmd).
+Hi, I'm Shusuke Ioku, a Ph.D. candidate in Political Science at the University of Rochester. I work on the political economy of conflict, broadly construed. Topics I currently study include state development, interstate conflict, and information operations. I approach them with formal theory and micro-level historical data. You can find my current projects on the [research page](research.qmd).
 
 ### Contact
 
