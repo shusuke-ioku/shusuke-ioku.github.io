@@ -2,10 +2,6 @@
 title: ""
 ---
 
-::: {.cv-download}
-[Download PDF](files/cv.pdf){.btn .btn-outline-dark}
-:::
-
 ```{=html}
 <style>
 #quarto-document-content .cv-list {
