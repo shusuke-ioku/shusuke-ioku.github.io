@@ -110,8 +110,10 @@ a:hover {
 
 .copy-email-btn {
   /* Block, so the button sits on its own line with no inline baseline gap
-     above it; the paragraph rule below closes the remaining margin. */
+     above it; the paragraph rule below closes the remaining margin, and
+     margin-top sets the separation from the bio explicitly. */
   display: block;
+  margin-top: 0.8rem;
   font: inherit;
   font-size: 0.62rem;
   letter-spacing: 0.06em;
