@@ -510,7 +510,36 @@ blockquote {
 
 /* ---------- Responsive ---------- */
 
-@media (max-width: 991.98px) {
+/* Quarto emits `navbar-expand-lg`, so Bootstrap keeps the navbar collapsed
+   below 992px. We want the phone layout to start lower, at Bootstrap's `sm`
+   (576px), so re-apply the expanded-navbar rules across the 576–991.98px band.
+   Only the rules the markup actually uses are copied — this navbar has no
+   dropdowns and no offcanvas. */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+  }
+  .navbar-expand-lg .navbar-nav-scroll {
+    overflow: visible;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
   :root {
     --anchor-offset: 6.2rem;
   }
