@@ -109,6 +109,9 @@ a:hover {
 }
 
 .copy-email-btn {
+  /* Block, so the button sits on its own line with no inline baseline gap
+     above it; the paragraph rule below closes the remaining margin. */
+  display: block;
   font: inherit;
   font-size: 0.62rem;
   letter-spacing: 0.06em;
@@ -252,6 +255,10 @@ main {
 
 .about-text {
   margin-bottom: 3rem;
+}
+
+.about-text p:has(+ .copy-email-btn) {
+  margin-bottom: 0;
 }
 
 /* ---------- Publications ---------- */
