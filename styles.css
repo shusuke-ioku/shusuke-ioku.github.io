@@ -202,7 +202,8 @@ a:hover {
 /* ---------- Layout ---------- */
 
 main {
-  max-width: 680px;
+  width: 680px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 4rem 1.5rem 2rem;
 }
