@@ -36,22 +36,24 @@ algorithmic-politics:
 
 conflict:
   - id: assurance-paper
-    title: "Threats and Assurances in Crisis Bargaining"
-    status: Work in progress
-    coauthors: "Shuhei Kurizaki"
+    title: "Modern Force and Coercive Backfire"
+    status: Working paper
+    pdf: "files/assurance_paper.pdf"
     abstract: >-
-      Coercive diplomacy rests on twin promises: a threat of punishment if the
-      target resists, and an assurance of restraint if it concedes. Crisis
-      bargaining theory and empirical work alike have concentrated on the
-      credibility of threats, yet resistance born of doubting the threat and
-      resistance born of doubting the assurance are observationally
-      equivalent, so coercion failure is mechanically attributed to weak
-      threats. We develop a crisis bargaining model that asks why a coercer
-      who genuinely intends to honor a concession can fail to convince the
-      target of it, and examine how the instruments that make threats
-      credible---military capability, mobilization, reputation---interact
-      with the credibility of the corresponding assurances, with implications
-      for why stronger states so often fail to coerce weaker opponents.
+      Modern force enables states to conduct subwar operations—bounded uses of
+      force short of general war. Does possessing the capability to conduct
+      such operations improve coercion? We study this question in a
+      parsimonious bargaining model where the coercer chooses its demand.
+      Coercion requires both threat and assurance: resistance must be costly,
+      and compliance must prevent further harm. By replacing war, the
+      operation can reduce harm; by replacing settlement, it can create harm.
+      The capability helps when it widens the gap between punishment after
+      resistance and harm not prevented by compliance, and hurts when it
+      narrows it. The target can therefore accept less, and the coercer's
+      expected payoff can fall even where the operation reduces war. Where the
+      operation cannot compensate for the smaller concession, every coercer
+      type is weakly worse off, and types that would otherwise have settled
+      instead choose war.
 ---
 
 ```{=html}
