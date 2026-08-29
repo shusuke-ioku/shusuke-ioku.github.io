@@ -45,16 +45,16 @@ conflict:
       Using a parsimonious conflict-bargaining framework, we show that low-cost
       military technology can raise the political cost of conflict. Coercion requires
       both threat and assurance: resistance must be costly, and compliance must
-      prevent further harm. Existing theory treats the two as an inverse
-      trade-off. A subwar operation can instead weaken both. By replacing war
+      prevent further harm. Existing theory treats them as a trade-off:
+      strengthening one weakens the other. A subwar operation can weaken both. By replacing war
       after resistance, it reduces punishment; by replacing settlement after
       compliance, it reduces protection. These losses jointly reduce the
       target's equilibrium concession, and the smaller concession further
       weakens assurance by making war more attractive after compliance. Three
       implications follow. It can make every coercer type
       worse off despite adding an option. It can induce types that otherwise
-      settle to choose general war. It can make cheaper operations raise
-      total conflict cost. Operational efficiency can therefore make coercion
+      settle to choose general war. Cheaper operations can raise total conflict
+      cost. Operational efficiency can therefore make coercion
       more destructive.
 ---
 
