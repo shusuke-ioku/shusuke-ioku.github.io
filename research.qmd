@@ -3,11 +3,11 @@ title: ""
 
 development-of-government:
   - id: exit-paper
-    title: "Mass Exit Under Governance Conflict: A Behavioral Foundation for Theories of State Development"
+    title: "Governance Conflict and Exit en Masse: A Behavioral Foundation for Theories of State Development"
     status: "Revise and resubmit, *International Organization*"
     pdf: "files/exit_paper.pdf"
     abstract: >-
-      Theories of state development assume that political fragmentation gives subjects exit options that discipline extraction, but direct evidence remains scarce. Tokugawa Japan makes a direct test possible because nearly 300 domains gave villages unequal access to outside authority between 1615 and 1868. Exit meant crossing into a neighboring domain, petitioning through a neighboring lord, or appealing over the home lord's head to the shogunate; it functioned as a bargaining strategy rather than permanent migration. A difference-in-differences design shows that conversion to direct shogunal rule raised exit by 4 percentage points without increasing direct confrontation, and a grid-year panel corroborates this pattern. Among resisting villages, greater exposure predicted a shift toward exit because proximity to a rival capital, rather than remoteness from the home capital, drove the result. More exposed domains levied lower taxes where neighbors could absorb migrants. The findings support theories linking political fragmentation to constrained extraction.
+      Theories of state development assume that fragmentation lets subjects turn to alternative authorities, but direct evidence of such behavior is scarce. Tokugawa Japan offers a test: nearly 300 domains gave villages unequal access to neighboring rulers and the central authority (the shogunate). Exit included collective flight, often temporary, and appeals through a neighboring lord or to the shogunate for concessions. I use difference-in-differences around provisionally identified domain conversions that expanded neighboring villages' access to the shogunate. Neighboring villages governed by other lords recorded 3.9 percentage points more exit but no detectable change in confrontation. Across places and years, easier access to another authority predicted exit but not confrontation. Among resisting villages, proximity to another domain's capital predicted exit rather than confrontation. Domains whose villages were closer to other authorities reported lower tax rates when neighboring domains could absorb migrants. The evidence links fragmentation to exit through access to another authority.
 
 algorithmic-politics:
   - id: verification-paper
@@ -40,20 +40,22 @@ conflict:
     status: Working paper
     pdf: "files/assurance_paper.pdf"
     abstract: >-
-      Modern force enables states to conduct subwar operations—bounded uses of
-      force short of general war. Does possessing the capability to conduct
-      such operations improve coercion? We study this question in a
-      parsimonious bargaining model where the coercer chooses its demand.
-      Coercion requires both threat and assurance: resistance must be costly,
-      and compliance must prevent further harm. By replacing war, the
-      operation can reduce harm; by replacing settlement, it can create harm.
-      The capability helps when it widens the gap between punishment after
-      resistance and harm not prevented by compliance, and hurts when it
-      narrows it. The target can therefore accept less, and the coercer's
-      expected payoff can fall even where the operation reduces war. Where the
-      operation cannot compensate for the smaller concession, every coercer
-      type is weakly worse off, and types that would otherwise have settled
-      instead choose war.
+      Modern military force enables efficient operations short of general war
+      through automation and AI-assisted precision strikes. Using a
+      parsimonious bargaining framework, we show that low-cost military
+      technology can raise the political cost of conflict. Coercion requires
+      both threat and assurance: resistance must be costly, and compliance must
+      prevent further harm. Existing theory treats the two as an inverse
+      trade-off. A subwar operation can instead weaken both. By replacing war
+      after resistance, it reduces punishment; by replacing settlement after
+      compliance, it reduces protection. These losses jointly reduce the
+      target's equilibrium concession, and the smaller concession further
+      weakens assurance by making war more attractive after compliance. This
+      response produces three implications. It can make every coercer type
+      worse off despite adding an option. It can induce types that otherwise
+      settle to choose general war. It can also make cheaper operations raise
+      total conflict cost. Operational efficiency can therefore make coercion
+      more destructive.
 ---
 
 ```{=html}
