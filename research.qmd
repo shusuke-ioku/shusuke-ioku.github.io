@@ -42,18 +42,18 @@ conflict:
     abstract: >-
       Modern military force enables efficient operations short of general war
       using technologies such as automation and AI-assisted precision strikes.
-      A bargaining model shows that low-cost military technology can raise the
-      political cost of conflict. Coercion requires
+      Using a parsimonious bargaining framework, we show that low-cost military
+      technology can raise the political cost of conflict. Coercion requires
       both threat and assurance: resistance must be costly, and compliance must
       prevent further harm. Existing theory treats the two as an inverse
       trade-off. A subwar operation can instead weaken both. By replacing war
       after resistance, it reduces punishment; by replacing settlement after
       compliance, it reduces protection. These losses jointly reduce the
       target's equilibrium concession, and the smaller concession further
-      weakens assurance by making war more attractive after compliance. This
-      response produces three implications. It can make every coercer type
+      weakens assurance by making war more attractive after compliance. Three
+      implications follow. It can make every coercer type
       worse off despite adding an option. It can induce types that otherwise
-      settle to choose general war. It can also make cheaper operations raise
+      settle to choose general war. It can make cheaper operations raise
       total conflict cost. Operational efficiency can therefore make coercion
       more destructive.
 ---
