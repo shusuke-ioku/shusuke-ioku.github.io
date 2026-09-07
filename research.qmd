@@ -3,11 +3,11 @@ title: ""
 
 development-of-government:
   - id: exit-paper
-    title: "Governance Conflict and Exit en Masse: A Behavioral Foundation for Theories of State Development"
+    title: "Mass Exit in the Market for Governance: A Behavioral Foundation for Theories of State Development"
     status: "Revise and resubmit, *International Organization*"
     pdf: "files/exit_paper.pdf"
     abstract: >-
-      Theories of state development assume that fragmentation lets subjects turn to alternative authorities, but direct evidence of such behavior is scarce. Tokugawa Japan offers a test: nearly 300 domains gave villages unequal access to neighboring rulers and the central authority (the shogunate). Exit included collective flight, often temporary, and appeals through a neighboring lord or to the shogunate for concessions. I use difference-in-differences around provisionally identified domain conversions that expanded neighboring villages' access to the shogunate. Neighboring villages governed by other lords recorded 3.9 percentage points more exit but no detectable change in confrontation. Across places and years, easier access to another authority predicted exit but not confrontation. Among resisting villages, proximity to another domain's capital predicted exit rather than confrontation. Domains whose villages were closer to other authorities reported lower tax rates when neighboring domains could absorb migrants. The evidence links fragmentation to exit through access to another authority.
+      Theories of state development assume that fragmentation lets subjects turn to alternative authorities, but direct evidence is scarce. Tokugawa Japan offers a test: nearly 300 domains gave villages unequal access to neighboring rulers and the shogunate. Exit included collective flight and appeals through a neighboring lord or to the shogunate for concessions. I use difference-in-differences around provisionally identified domain conversions that expanded neighboring villages' access to the shogunate. Nearby villages under other lords recorded 3.9 percentage points more exit but no detectable change in confrontation. Across places and years, easier access to another authority predicted exit but not confrontation. Among resisting villages, proximity to another domain's capital predicted exit rather than confrontation. Domains whose villages were closer to other authorities reported lower tax rates when neighboring domains could absorb migrants. I develop a general theory of exit under combined horizontal and vertical authority and test its behavioral mechanism.
 
 algorithmic-politics:
   - id: verification-paper
