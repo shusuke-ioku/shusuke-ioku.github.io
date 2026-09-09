@@ -116,7 +116,8 @@ a:hover {
   border: 0;
   border-bottom: 1px solid #ddd;
   padding: 0;
-  line-height: inherit;
+  line-height: 1;
+  vertical-align: baseline;
   cursor: pointer;
   transition: border-color 0.2s ease;
 }
