@@ -6,7 +6,7 @@
 --   ::: {#talks}   → talk entries (title + venue)
 --   ::: {#courses} → course table
 -- Every other matching identifier renders as a publication list supporting
--- the fields: id, title, coauthors, status, venue, pdf, abstract.
+-- the fields: id, topic, title, coauthors, status, venue, pdf, abstract.
 
 local function str(val)
   if not val then return "" end
@@ -69,6 +69,9 @@ local function render_papers(papers)
   for _, p in ipairs(papers) do
     local div_id = p.id and (' id="' .. str(p.id) .. '"') or ""
     local h = '<div class="pub-entry"' .. div_id .. '>\n'
+    if p.topic then
+      h = h .. '<span class="pub-topic">' .. esc_html(str(p.topic)) .. '</span>\n'
+    end
     h = h .. '<span class="pub-title">' .. title_with_subtitle(p.title) .. '</span><br>\n'
     if p.coauthors then
       h = h .. '<span class="pub-authors">with ' .. to_html(p.coauthors) .. '</span><br>\n'

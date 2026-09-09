@@ -16,15 +16,11 @@ website:
     search: false
     left:
       - href: research.qmd
-        text: Research
+        text: Paper
       - href: cv.qmd
         text: CV
       - href: misc.qmd
         text: "MORE"
-  page-footer:
-    center: |
-      &copy; 2026 Shusuke Ioku
-    border: false
   google-analytics: "G-VDEWLM2ZLS"
 
 filters:

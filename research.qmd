@@ -1,16 +1,18 @@
 ---
 title: ""
+pagetitle: "Paper"
 
-development-of-government:
+research:
   - id: exit-paper
+    topic: State Development
     title: "Mass Exit in the Market for Governance: A Behavioral Foundation for Theories of State Development"
     status: "Revise and resubmit, *International Organization*"
     pdf: "files/exit_paper.pdf"
     abstract: >-
       Theories of state development assume that fragmentation lets subjects turn to alternative authorities, but direct evidence is scarce. Tokugawa Japan offers a test: nearly 300 domains gave villages unequal access to neighboring rulers and the shogunate. Exit included collective flight and appeals through a neighboring lord or to the shogunate for concessions. I use difference-in-differences around provisionally identified domain conversions that expanded neighboring villages' access to the shogunate. Nearby villages under other lords recorded 3.9 percentage points more exit but no detectable change in confrontation. Across places and years, easier access to another authority predicted exit but not confrontation. Among resisting villages, proximity to another domain's capital predicted exit rather than confrontation. Domains whose villages were closer to other authorities reported lower tax rates when neighboring domains could absorb migrants. I develop a general theory of exit under combined horizontal and vertical authority and test its behavioral mechanism.
 
-algorithmic-politics:
   - id: verification-paper
+    topic: Information Operations
     title: "Verifying Away Collective Knowledge"
     status: Under review
     pdf: "files/verification_paper.pdf"
@@ -34,8 +36,8 @@ algorithmic-politics:
       security should track both the fakes excluded and the composition of
       who remains.
 
-conflict:
   - id: assurance-paper
+    topic: Interstate Conflict
     title: "Modern Force and Coercive Backfire"
     status: Working paper
     pdf: "files/assurance_paper.pdf"
@@ -66,17 +68,5 @@ main {
 </style>
 ```
 
-## State Development
-
-::: {#development-of-government}
-:::
-
-## Information Operations
-
-::: {#algorithmic-politics}
-:::
-
-## Interstate Conflict
-
-::: {#conflict}
+::: {#research}
 :::
