@@ -76,13 +76,15 @@ local function render_papers(papers)
     if p.coauthors then
       h = h .. '<span class="pub-authors">with ' .. to_html(p.coauthors) .. '</span><br>\n'
     end
+    if p.pdf then
+      h = h .. '<a href="' .. str(p.pdf) .. '">PDF</a>'
+    end
     if p.venue then
+      if p.pdf then h = h .. '&ensp;' end
       h = h .. '<span class="pub-venue">' .. to_html(p.venue) .. '</span>'
     elseif p.status then
+      if p.pdf then h = h .. '&ensp;' end
       h = h .. '<span class="pub-status">' .. to_html(p.status) .. '</span>'
-    end
-    if p.pdf then
-      h = h .. '&ensp;<a href="' .. str(p.pdf) .. '">PDF</a>'
     end
     h = h .. '\n'
     if p.abstract then

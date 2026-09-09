@@ -269,9 +269,13 @@ main {
 /* ---------- Publications ---------- */
 
 .pub-entry {
-  margin-bottom: 2.4rem;
+  margin-bottom: 0;
   padding-left: 0;
   border-left: none;
+}
+
+.pub-entry + .pub-entry {
+  margin-top: 3.5rem;
 }
 
 .pub-entry .pub-topic {
