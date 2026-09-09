@@ -114,9 +114,15 @@ a:hover {
   color: inherit;
   background: none;
   border: 0;
+  border-bottom: 1px solid #ddd;
   padding: 0;
   line-height: inherit;
   cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.copy-email-btn:hover {
+  border-bottom-color: #222;
 }
 
 /* ---------- Navbar ---------- */
