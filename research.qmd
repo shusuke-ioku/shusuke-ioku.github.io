@@ -62,6 +62,7 @@ research:
   - id: attack-option-paper
     topic: Interstate Conflict
     title: "Assurance and Coercion in Conflict"
+    coauthors: "[Shuhei Kurizaki](https://skurizaki.github.io/)"
     status: Working paper
     pdf: "files/attack_option_paper.pdf"
     abstract: >-
