@@ -66,20 +66,19 @@ research:
     status: Working paper
     pdf: "files/attack_option_paper.pdf"
     abstract: >-
-      A small demand can conceal belligerence when compliance improves the coercer's
-      position in war. We model a privately informed coercer demanding concessions
-      from a target. With two positive demands receiving compliance, belligerent and
-      weak types can share the low demand while moderate, resolved types demand more
-      and settle after acceptance. Ending the crisis at compliance excludes this
-      sorting. The result survives continuous full-support cost distributions. In
-      matched regular sorting with certain low-demand compliance, exposure makes
-      demands less informative about binary willingness to fight after resistance,
-      raises compliance, and reduces peaceful transfers. Allowing both games to adjust
-      bargaining behavior yields a different comparison: under uniform costs, exposure
-      raises minimum attainable war and conflict costs and lowers maximum coercer payoff
-      and total welfare within the characterized pooling and positive two-demand classes.
-      Individual equilibrium comparisons can still reverse. A zero-exposure benchmark
-      separates changes in compliance counts from changes in material outcomes.
+      Political actors can fail to secure concessions despite credible threats when
+      targets fear that yielding will invite further coercion. We show that this
+      assurance problem can deepen uncertainty about an opponent's willingness to fight
+      by making demands harder to interpret. When concessions improve the demanding
+      state's military position, states planning an attack can make the same modest
+      demands as states reluctant to fight. We derive this result from a bargaining model
+      in which states choose their demands and retain the option to attack after
+      compliance. Anticipating such attacks, targets can concede less, making settlement
+      less attractive and increasing the risk of war. Yet those planning to attack can
+      gain by securing a smaller concession before launching an attack. Assurance
+      problems can therefore increase conflict while either benefiting or harming the
+      demanding state. Their consequences depend on both what demands reveal and how
+      compliance changes incentives for subsequent violence.
 ---
 
 ```{=html}
