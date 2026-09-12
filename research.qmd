@@ -58,6 +58,27 @@ research:
       settle to choose general war. It can make cheaper operations raise
       total conflict cost. Operational efficiency can therefore make coercion
       more destructive.
+
+  - id: attack-option-paper
+    topic: Interstate Conflict
+    title: "Assurance and Coercion in Conflict"
+    status: Working paper
+    pdf: "files/attack_option_paper.pdf"
+    abstract: >-
+      A small demand can conceal belligerence when compliance improves the coercer's
+      position in war. We model a privately informed coercer demanding concessions
+      from a target. With two positive demands receiving compliance, belligerent and
+      weak types can share the low demand while moderate, resolved types demand more
+      and settle after acceptance. Ending the crisis at compliance excludes this
+      sorting. The result survives continuous full-support cost distributions. In
+      matched regular sorting with certain low-demand compliance, exposure makes
+      demands less informative about binary willingness to fight after resistance,
+      raises compliance, and reduces peaceful transfers. Allowing both games to adjust
+      bargaining behavior yields a different comparison: under uniform costs, exposure
+      raises minimum attainable war and conflict costs and lowers maximum coercer payoff
+      and total welfare within the characterized pooling and positive two-demand classes.
+      Individual equilibrium comparisons can still reverse. A zero-exposure benchmark
+      separates changes in compliance counts from changes in material outcomes.
 ---
 
 ```{=html}
