@@ -61,24 +61,24 @@ research:
 
   - id: attack-option-paper
     topic: Interstate Conflict
-    title: "Assurance and Coercion in Conflict"
+    title: "Assurance in Coercive Bargaining"
     coauthors: "[Shuhei Kurizaki](https://skurizaki.github.io/)"
     status: Working paper
     pdf: "files/attack_option_paper.pdf"
     abstract: >-
       Political actors can fail to secure concessions despite credible threats when
-      targets fear that yielding will invite further coercion. We show that this
-      assurance problem can deepen uncertainty about an opponent's willingness to fight
-      by making demands harder to interpret. When concessions improve the demanding
-      state's military position, states planning an attack can make the same modest
-      demands as states reluctant to fight. We derive this result from a bargaining model
-      in which states choose their demands and retain the option to attack after
-      compliance. Anticipating such attacks, targets can concede less, making settlement
-      less attractive and increasing the risk of war. Yet those planning to attack can
-      gain by securing a smaller concession before launching an attack. Assurance
-      problems can therefore increase conflict while either benefiting or harming the
-      demanding state. Their consequences depend on both what demands reveal and how
-      compliance changes incentives for subsequent violence.
+      targets fear that yielding could invite further harm. We show that this assurance
+      problem can complicate signaling through coercive demands, making it harder for
+      targets to distinguish restraint from plans to attack. Our bargaining model allows
+      concessions to improve the demanding state's military position before it decides
+      whether to attack. This gives states planning an attack a reason to imitate the
+      modest demands of states seeking peace. Greater military strength can make
+      reassuring demand patterns harder to sustain and permit additional ways to conceal
+      an intended attack. These changes can reduce the concessions the demanding state
+      obtains peacefully and increase the risk of war, imposing collective costs when
+      disputes that could have been settled peacefully instead lead to fighting. Lack of
+      assurance can exacerbate information problems in interstate politics, undermining
+      coercive bargaining and making peace harder to secure.
 ---
 
 ```{=html}
