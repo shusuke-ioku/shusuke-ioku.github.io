@@ -5,7 +5,7 @@ pagetitle: "Paper"
 research:
   - id: exit-paper
     topic: State Development
-    title: "Mass Exit in the Market for Governance: A Behavioral Foundation for Theories of State Development"
+    title: "Mass Exit in the Market for Governance"
     status: "Revise and resubmit, *International Organization*"
     pdf: "files/exit_paper.pdf"
     abstract: >-
