@@ -42,22 +42,20 @@ research:
     status: Working paper
     pdf: "files/assurance_paper.pdf"
     abstract: >-
-      Modern military force enables efficient operations short of general war
-      using technologies such as automation and AI-assisted precision strikes.
-      Using a parsimonious conflict-bargaining framework, we show that low-cost
-      military technology can raise the political cost of conflict. Coercion requires
-      both threat and assurance: resistance must be costly, and compliance must
-      prevent further harm. Existing theory treats the two as an inverse
-      trade-off. A subwar operation can instead weaken both. By replacing war
-      after resistance, it reduces punishment; by replacing settlement after
-      compliance, it reduces protection. These losses jointly reduce the
-      target's equilibrium concession, and the smaller concession further
-      weakens assurance by making war more attractive after compliance. Three
-      implications follow. It can make every coercer type
-      worse off despite adding an option. It can induce types that otherwise
-      settle to choose general war. It can make cheaper operations raise
-      total conflict cost. Operational efficiency can therefore make coercion
-      more destructive.
+      Modern military technologies, from automated weapons to AI-assisted precision
+      strikes, promise cheaper force. Do these alternatives reduce the costs of
+      interstate conflict? The key is how opponents respond. I develop a parsimonious
+      bargaining framework of conflict where a state gains a *subwar capability*: a
+      cheaper operation short of general war. This option can replace war after
+      resistance or settlement after compliance, potentially weakening both threats
+      and assurances in coercive bargaining. The target may concede less, reducing the
+      state’s incentive for restraint and making war more attractive. Comparing the
+      coercer’s ability to secure concessions with and without the option, I show this
+      response can lower coercive ability and increase war even when the operation is
+      never used. Subwar capability can weaken the effect of military power on coercive
+      ability and reduce social welfare by raising conflict costs. More efficient
+      military technology can disrupt coercive bargaining and make interstate conflict
+      more costly.
 
   - id: attack-option-paper
     topic: Interstate Conflict
