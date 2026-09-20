@@ -43,7 +43,7 @@ research:
     pdf: "files/assurance_paper.pdf"
     abstract: >-
       Modern military technologies, including automated weapons and AI-assisted
-      systems, promise to strengthen deterrence and preserve peace by enabling
+      systems, are thought to strengthen deterrence and preserve peace by enhancing
       limited military operations without provoking wider war. I challenge this
       optimism by examining their implications for coercive bargaining rather than
       their direct military effects. I develop a coercive bargaining model with a *subwar capability*:
