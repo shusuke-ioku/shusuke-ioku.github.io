@@ -12,7 +12,7 @@ research:
       Theories of state development assume that fragmentation lets subjects turn to alternative authorities, but direct evidence is scarce. Tokugawa Japan offers a test: nearly 300 domains gave villages unequal access to neighboring rulers and the shogunate. Exit included collective flight and appeals through a neighboring lord or to the shogunate for concessions. I use difference-in-differences around provisionally identified domain conversions that expanded neighboring villages' access to the shogunate. Nearby villages under other lords recorded 3.9 percentage points more exit but no detectable change in confrontation. Across places and years, easier access to another authority predicted exit but not confrontation. Among resisting villages, proximity to another domain's capital predicted exit rather than confrontation. Domains whose villages were closer to other authorities reported lower tax rates when neighboring domains could absorb migrants. I develop a general theory of exit under combined horizontal and vertical authority and test its behavioral mechanism.
 
   - id: verification-paper
-    topic: Information Operations
+    topic: Cognitive Warfare
     title: "Verifying Away Collective Knowledge"
     status: Under review
     pdf: "files/verification_paper.pdf"
