@@ -331,11 +331,19 @@ main {
   letter-spacing: 0.08em;
   font-size: 0.66rem;
   color: #8a867c;
-  margin-top: 0.5rem;
   line-height: 1.2;
 }
 
-/* Dot between the Abstract link, the PDF link, and the status. */
+/* Status sits on its own row under the title, links on the row below it. */
+.pub-entry .pub-meta {
+  margin-top: 0.3rem;
+}
+
+.pub-entry .pub-links {
+  margin-top: 0.3rem;
+}
+
+/* Dot between the Abstract and PDF links. */
 .pub-entry .pub-sep {
   margin: 0 0.4rem;
   color: #bbb;

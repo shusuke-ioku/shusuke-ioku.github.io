@@ -72,28 +72,26 @@ local function render_papers(papers)
     if p.topic then
       h = h .. '<span class="pub-topic">' .. esc_html(str(p.topic)) .. '</span>\n'
     end
-    h = h .. '<span class="pub-title">' .. title_with_subtitle(p.title) .. '</span><br>\n'
+    h = h .. '<span class="pub-title">' .. title_with_subtitle(p.title) .. '</span>\n'
     if p.coauthors then
-      h = h .. '<span class="pub-authors">with ' .. to_html(p.coauthors) .. '</span><br>\n'
-    end
-    local has_links = false
-    if p.abstract then
-      h = h .. '<a class="pub-abstract-btn" href="#" role="button" aria-expanded="false">Abstract</a>'
-      has_links = true
-    end
-    if p.pdf then
-      if has_links then h = h .. '<span class="pub-sep">&middot;</span>' end
-      h = h .. '<a href="' .. str(p.pdf) .. '">PDF</a>'
-      has_links = true
+      h = h .. '<div class="pub-authors">with ' .. to_html(p.coauthors) .. '</div>\n'
     end
     if p.venue then
-      if has_links then h = h .. '<span class="pub-sep">&middot;</span>' end
-      h = h .. '<span class="pub-venue">' .. to_html(p.venue) .. '</span>'
+      h = h .. '<div class="pub-meta"><span class="pub-venue">' .. to_html(p.venue) .. '</span></div>\n'
     elseif p.status then
-      if has_links then h = h .. '<span class="pub-sep">&middot;</span>' end
-      h = h .. '<span class="pub-status">' .. to_html(p.status) .. '</span>'
+      h = h .. '<div class="pub-meta"><span class="pub-status">' .. to_html(p.status) .. '</span></div>\n'
     end
-    h = h .. '\n'
+    local links = ""
+    if p.abstract then
+      links = links .. '<a class="pub-abstract-btn" href="#" role="button" aria-expanded="false">Abstract</a>'
+    end
+    if p.pdf then
+      if links ~= "" then links = links .. '<span class="pub-sep">&middot;</span>' end
+      links = links .. '<a href="' .. str(p.pdf) .. '">PDF</a>'
+    end
+    if links ~= "" then
+      h = h .. '<div class="pub-links">' .. links .. '</div>\n'
+    end
     if p.abstract then
       h = h .. '<div class="pub-abstract" hidden>' .. to_block(p.abstract) .. '</div>\n'
     end
