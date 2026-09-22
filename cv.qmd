@@ -77,7 +77,7 @@ title: ""
 
 ## Publications
 
-See [Research](research.qmd) page for full list.
+See the [paper page](research.qmd) for full list.
 
 ## Awards
 
