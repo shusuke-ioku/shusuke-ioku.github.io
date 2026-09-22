@@ -271,6 +271,11 @@ main {
 
 /* ---------- Publications ---------- */
 
+/* Same breathing room above the paper list as the home-page intro. */
+#research {
+  padding-top: 1rem;
+}
+
 .pub-entry {
   margin-bottom: 0;
   padding-left: 0;
