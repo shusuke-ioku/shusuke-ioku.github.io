@@ -82,7 +82,7 @@ local function render_papers(papers)
       has_links = true
     end
     if p.pdf then
-      if has_links then h = h .. '&ensp;' end
+      if has_links then h = h .. '<span class="pub-sep">&middot;</span>' end
       h = h .. '<a href="' .. str(p.pdf) .. '">PDF</a>'
       has_links = true
     end
