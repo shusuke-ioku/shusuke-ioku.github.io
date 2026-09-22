@@ -255,6 +255,7 @@ main {
 /* ---------- About page ---------- */
 
 .about-text {
+  padding-top: 1rem;
   margin-bottom: 3rem;
 }
 
