@@ -329,12 +329,13 @@ main {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  font-size: 0.66rem;
   color: #8a867c;
   margin-top: 0.5rem;
   line-height: 1.2;
 }
 
-/* Dot between the Abstract and PDF links. */
+/* Dot between the Abstract link, the PDF link, and the status. */
 .pub-entry .pub-sep {
   margin: 0 0.4rem;
   color: #bbb;

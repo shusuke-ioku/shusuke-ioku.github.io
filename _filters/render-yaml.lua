@@ -87,10 +87,10 @@ local function render_papers(papers)
       has_links = true
     end
     if p.venue then
-      if has_links then h = h .. '&ensp;' end
+      if has_links then h = h .. '<span class="pub-sep">&middot;</span>' end
       h = h .. '<span class="pub-venue">' .. to_html(p.venue) .. '</span>'
     elseif p.status then
-      if has_links then h = h .. '&ensp;' end
+      if has_links then h = h .. '<span class="pub-sep">&middot;</span>' end
       h = h .. '<span class="pub-status">' .. to_html(p.status) .. '</span>'
     end
     h = h .. '\n'
