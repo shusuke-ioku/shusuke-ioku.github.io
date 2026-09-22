@@ -109,6 +109,7 @@ a:hover {
 }
 
 .copy-email-btn {
+  margin-left: 0.15rem;
   font: inherit;
   color: inherit;
   background: none;
@@ -218,7 +219,8 @@ main {
 }
 
 @media (min-width: 48rem) {
-  #quarto-document-content p {
+  #quarto-document-content p,
+  .abstract-modal .abstract-modal-body p {
     text-align: justify;
     text-justify: inter-word;
     -webkit-hyphens: auto;
@@ -227,7 +229,8 @@ main {
   }
 
   @supports (hyphenate-limit-chars: 7) {
-    #quarto-document-content p {
+    #quarto-document-content p,
+    .abstract-modal .abstract-modal-body p {
       hyphenate-limit-chars: 7;
     }
   }
@@ -416,8 +419,7 @@ main {
   color: #444;
   line-height: 1.7;
   margin: 0 0 1rem;
-  text-align: justify;
-  text-justify: inter-word;
+  text-wrap: pretty;
 }
 
 .abstract-modal .abstract-modal-body p:last-child {
