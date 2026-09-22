@@ -706,6 +706,10 @@ blockquote {
   }
   main { padding: 3rem 1.2rem 5rem; }
   h1 { font-size: 1.05rem; }
+  /* Centre the home-page intro on phones. */
+  #quarto-document-content .about-text p {
+    text-align: center;
+  }
 }
 
 /* ---------- Print ---------- */
