@@ -345,7 +345,6 @@ main {
 
 /* Dot between the Abstract and PDF links. */
 .pub-entry .pub-sep {
-  margin: 0 0.4rem;
   color: #bbb;
 }
 
