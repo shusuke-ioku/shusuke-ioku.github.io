@@ -343,23 +343,6 @@ main {
   margin-bottom: 0;
 }
 
-/* Abstract trigger: matches the plain-link look of the PDF link beside it. */
-.pub-entry .pub-abstract-btn {
-  font: inherit;
-  color: #222;
-  background: none;
-  border: 0;
-  border-bottom: 1px solid #ddd;
-  padding: 0;
-  line-height: inherit;
-  vertical-align: baseline;
-  cursor: pointer;
-  transition: border-color 0.2s ease;
-}
-
-.pub-entry .pub-abstract-btn:hover {
-  border-bottom-color: #222;
-}
 
 /* ---------- Abstract modal ---------- */
 

@@ -78,7 +78,7 @@ local function render_papers(papers)
     end
     local has_links = false
     if p.abstract then
-      h = h .. '<button class="pub-abstract-btn" type="button" aria-expanded="false">Abstract</button>'
+      h = h .. '<a class="pub-abstract-btn" href="#" role="button" aria-expanded="false">Abstract</a>'
       has_links = true
     end
     if p.pdf then

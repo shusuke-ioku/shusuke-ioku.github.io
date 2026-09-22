@@ -122,7 +122,8 @@ window.addEventListener("DOMContentLoaded", function () {
   };
 
   document.querySelectorAll(".pub-abstract-btn").forEach((btn) => {
-    btn.addEventListener("click", function () {
+    btn.addEventListener("click", function (event) {
+      event.preventDefault();
       const entry = btn.closest(".pub-entry");
       if (!entry) return;
       const abstract = entry.querySelector(".pub-abstract");
@@ -142,6 +143,15 @@ window.addEventListener("DOMContentLoaded", function () {
       const modal = overlay.querySelector(".abstract-modal");
       modal.scrollTop = 0;
       modal.focus();
+    });
+  });
+
+  document.querySelectorAll(".pub-abstract-btn").forEach((btn) => {
+    btn.addEventListener("keydown", function (event) {
+      if (event.key === " " || event.key === "Spacebar") {
+        event.preventDefault();
+        btn.click();
+      }
     });
   });
 
