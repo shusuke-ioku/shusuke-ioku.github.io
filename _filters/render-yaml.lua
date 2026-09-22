@@ -76,19 +76,26 @@ local function render_papers(papers)
     if p.coauthors then
       h = h .. '<span class="pub-authors">with ' .. to_html(p.coauthors) .. '</span><br>\n'
     end
+    local has_links = false
+    if p.abstract then
+      h = h .. '<button class="pub-abstract-btn" type="button" aria-expanded="false">Abstract</button>'
+      has_links = true
+    end
     if p.pdf then
+      if has_links then h = h .. '&ensp;' end
       h = h .. '<a href="' .. str(p.pdf) .. '">PDF</a>'
+      has_links = true
     end
     if p.venue then
-      if p.pdf then h = h .. '&ensp;' end
+      if has_links then h = h .. '&ensp;' end
       h = h .. '<span class="pub-venue">' .. to_html(p.venue) .. '</span>'
     elseif p.status then
-      if p.pdf then h = h .. '&ensp;' end
+      if has_links then h = h .. '&ensp;' end
       h = h .. '<span class="pub-status">' .. to_html(p.status) .. '</span>'
     end
     h = h .. '\n'
     if p.abstract then
-      h = h .. '<div class="pub-abstract">' .. to_block(p.abstract) .. '</div>\n'
+      h = h .. '<div class="pub-abstract" hidden>' .. to_block(p.abstract) .. '</div>\n'
     end
     h = h .. '</div>\n'
     out:insert(pandoc.RawBlock('html', h))

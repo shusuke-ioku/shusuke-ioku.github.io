@@ -89,3 +89,71 @@ main {
 
 ::: {#research}
 :::
+
+```{=html}
+<div class="abstract-overlay" id="abstract-overlay" hidden>
+  <div class="abstract-modal" role="dialog" aria-modal="true" aria-labelledby="abstract-modal-title" tabindex="-1">
+    <button class="abstract-modal-close" type="button" aria-label="Close">&#10005;</button>
+    <span class="abstract-modal-topic" id="abstract-modal-topic"></span>
+    <span class="abstract-modal-title" id="abstract-modal-title"></span>
+    <div class="abstract-modal-body" id="abstract-modal-body"></div>
+  </div>
+</div>
+
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  const overlay = document.getElementById("abstract-overlay");
+  if (!overlay) return;
+
+  const topicEl = document.getElementById("abstract-modal-topic");
+  const titleEl = document.getElementById("abstract-modal-title");
+  const bodyEl = document.getElementById("abstract-modal-body");
+  const closeBtn = overlay.querySelector(".abstract-modal-close");
+  let lastTrigger = null;
+
+  const closeModal = () => {
+    overlay.hidden = true;
+    document.body.classList.remove("abstract-open");
+    if (lastTrigger) {
+      lastTrigger.setAttribute("aria-expanded", "false");
+      lastTrigger.focus();
+      lastTrigger = null;
+    }
+  };
+
+  document.querySelectorAll(".pub-abstract-btn").forEach((btn) => {
+    btn.addEventListener("click", function () {
+      const entry = btn.closest(".pub-entry");
+      if (!entry) return;
+      const abstract = entry.querySelector(".pub-abstract");
+      if (!abstract) return;
+
+      const topic = entry.querySelector(".pub-topic");
+      const title = entry.querySelector(".pub-title");
+      topicEl.textContent = topic ? topic.textContent : "";
+      topicEl.hidden = !topic;
+      titleEl.innerHTML = title ? title.innerHTML : "";
+      bodyEl.innerHTML = abstract.innerHTML;
+
+      lastTrigger = btn;
+      btn.setAttribute("aria-expanded", "true");
+      overlay.hidden = false;
+      document.body.classList.add("abstract-open");
+      const modal = overlay.querySelector(".abstract-modal");
+      modal.scrollTop = 0;
+      modal.focus();
+    });
+  });
+
+  closeBtn.addEventListener("click", closeModal);
+
+  overlay.addEventListener("click", function (event) {
+    if (event.target === overlay) closeModal();
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && !overlay.hidden) closeModal();
+  });
+});
+</script>
+```
