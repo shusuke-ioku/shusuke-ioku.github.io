@@ -362,11 +362,7 @@ main {
   line-height: 1.2;
 }
 
-/* Status sits on its own row under the title, links on the row below it. */
-.pub-entry .pub-meta {
-  margin-top: 0.3rem;
-}
-
+/* Links and status share one row under the title. */
 .pub-entry .pub-links {
   margin-top: 0.3rem;
 }
@@ -374,6 +370,12 @@ main {
 /* Dot between the Abstract and PDF links. */
 .pub-entry .pub-sep {
   color: #bbb;
+}
+
+/* Bar between the links and the status. */
+.pub-entry .pub-bar {
+  margin: 0 0.45rem;
+  color: #ddd;
 }
 
 .pub-entry .pub-abstract p,

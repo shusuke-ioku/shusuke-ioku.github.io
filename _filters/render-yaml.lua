@@ -76,11 +76,6 @@ local function render_papers(papers)
     if p.coauthors then
       h = h .. '<div class="pub-authors">with ' .. to_html(p.coauthors) .. '</div>\n'
     end
-    if p.venue then
-      h = h .. '<div class="pub-meta"><span class="pub-venue">' .. to_html(p.venue) .. '</span></div>\n'
-    elseif p.status then
-      h = h .. '<div class="pub-meta"><span class="pub-status">' .. to_html(p.status) .. '</span></div>\n'
-    end
     local links = ""
     if p.abstract then
       links = links .. '<a class="pub-abstract-btn" href="#" role="button" aria-expanded="false">Abstract</a>'
@@ -88,6 +83,18 @@ local function render_papers(papers)
     if p.pdf then
       if links ~= "" then links = links .. '<span class="pub-sep">&middot;</span>' end
       links = links .. '<a href="' .. str(p.pdf) .. '">PDF</a>'
+    end
+    -- Venue or status rides on the same row, to the right of the links.
+    local meta = ""
+    if p.venue then
+      meta = '<span class="pub-venue">' .. to_html(p.venue) .. '</span>'
+    elseif p.status then
+      meta = '<span class="pub-status">' .. to_html(p.status) .. '</span>'
+    end
+    if meta ~= "" and links ~= "" then
+      links = links .. '<span class="pub-bar">|</span>' .. meta
+    elseif meta ~= "" then
+      links = meta
     end
     if links ~= "" then
       h = h .. '<div class="pub-links">' .. links .. '</div>\n'
