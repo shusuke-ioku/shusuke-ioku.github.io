@@ -259,18 +259,6 @@ main {
   margin-bottom: 3rem;
 }
 
-/* Below 48rem the rest of the prose stays ragged-right, but the home-page
-   intro is justified, with hyphenation to keep the word gaps tight. */
-@media (max-width: 47.99rem) {
-  #quarto-document-content .about-text p {
-    text-align: justify;
-    text-justify: inter-word;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-  }
-}
-
 /* Hold the contact line 0.8rem below the bio: zero the bio's bottom margin and
    set the gap on the contact paragraph, so the two do not collapse to 20.4px. */
 .about-text p:has(+ p .copy-email-btn) {
