@@ -4,7 +4,7 @@ title: ""
 
 ::: {.about-text}
 
-I am Shusuke Ioku, a Ph.D. can&shy;di&shy;date in Po&shy;lit&shy;i&shy;cal Sci&shy;ence at the Uni&shy;ver&shy;si&shy;ty of Roch&shy;es&shy;ter. I work on the po&shy;lit&shy;i&shy;cal econ&shy;o&shy;my of con&shy;flict, broad&shy;ly con&shy;strued. 
+I am a Ph.D. can&shy;di&shy;date in Po&shy;lit&shy;i&shy;cal Sci&shy;ence at the Uni&shy;ver&shy;si&shy;ty of Roch&shy;es&shy;ter. I work on the po&shy;lit&shy;i&shy;cal econ&shy;o&shy;my of con&shy;flict, broad&shy;ly con&shy;strued. 
 Top&shy;ics I cur&shy;rent&shy;ly study in&shy;clude state de&shy;vel&shy;op&shy;ment, in&shy;ter&shy;state con&shy;flict, and cog&shy;ni&shy;tive war&shy;fare. I ap&shy;proach them with for&shy;mal the&shy;o&shy;ry and mi&shy;cro-lev&shy;el data. You can find my cur&shy;rent pro&shy;jects on the [paper page](research.qmd).
 
 Contact:<button class="copy-email-btn" type="button" onclick="navigator.clipboard.writeText('iokushusuke@gmail.com'); this.textContent='Copied'; setTimeout(() => this.textContent='Copy email', 1200);">Copy email</button>
