@@ -259,6 +259,26 @@ main {
   margin-bottom: 3rem;
 }
 
+/* Justify the intro on phones. At ~30 characters a line this only works if
+   words break, so drop text-wrap: pretty, which appears to suppress
+   hyphenation in Safari, and let the hyphenator do the work. */
+@media (max-width: 47.99rem) {
+  #quarto-document-content .about-text p {
+    text-align: justify;
+    text-justify: inter-word;
+    text-wrap: normal;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  @supports (hyphenate-limit-chars: 6 3 3) {
+    #quarto-document-content .about-text p {
+      hyphenate-limit-chars: 6 3 3;
+    }
+  }
+}
+
 /* Hold the contact line 0.8rem below the bio: zero the bio's bottom margin and
    set the gap on the contact paragraph, so the two do not collapse to 20.4px. */
 .about-text p:has(+ p .copy-email-btn) {
