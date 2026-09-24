@@ -48,7 +48,7 @@ title: ""
 ::: {.cv-list}
 ::: {.cv-row}
 ::: {.cv-year}
-2021--present
+2021--2027 (exp.)
 :::
 ::: {.cv-desc}
 **Ph.D. in Political Science**, University of Rochester\
