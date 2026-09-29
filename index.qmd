@@ -4,7 +4,7 @@ title: ""
 
 ::: {.about-text}
 
-I am a Ph.D. can&shy;di&shy;date in Po&shy;lit&shy;i&shy;cal Sci&shy;ence at the Uni&shy;ver&shy;si&shy;ty of Roch&shy;es&shy;ter (ex&shy;pect&shy;ed com&shy;ple&shy;tion: 2027). I work on the po&shy;lit&shy;i&shy;cal econ&shy;o&shy;my of con&shy;flict, broad&shy;ly con&shy;strued, us&shy;ing for&shy;mal mod&shy;el&shy;ing and quan&shy;ti&shy;ta&shy;tive meth&shy;ods. Top&shy;ics I cur&shy;rent&shy;ly study in&shy;clude the role of mass ex&shy;it in state de&shy;vel&shy;op&shy;ment and the im&shy;pli&shy;ca&shy;tions of AI tech&shy;nol&shy;o&shy;gies for in&shy;ter&shy;state con&shy;flict and on&shy;line ep&shy;i&shy;stem&shy;ic se&shy;cu&shy;ri&shy;ty. You can find my cur&shy;rent proj&shy;ects on the [pa&shy;per page](research.qmd).
+I am a Ph.D. can&shy;di&shy;date in Po&shy;lit&shy;i&shy;cal Sci&shy;ence at the Uni&shy;ver&shy;si&shy;ty of Roch&shy;es&shy;ter (ex&shy;pect&shy;ed com&shy;ple&shy;tion: 2027). I work on the po&shy;lit&shy;i&shy;cal econ&shy;o&shy;my of con&shy;flict, broad&shy;ly con&shy;strued, us&shy;ing for&shy;mal mod&shy;el&shy;ing and quan&shy;ti&shy;ta&shy;tive meth&shy;ods. Top&shy;ics I cur&shy;rent&shy;ly study in&shy;clude state de&shy;vel&shy;op&shy;ment, in&shy;ter&shy;state con&shy;flict, and on&shy;line ep&shy;i&shy;stem&shy;ic se&shy;cu&shy;ri&shy;ty. You can find my cur&shy;rent proj&shy;ects on the [pa&shy;per page](research.qmd).
 
 Contact:<button class="copy-email-btn" type="button" onclick="navigator.clipboard.writeText('iokushusuke@gmail.com'); this.textContent='Copied'; setTimeout(() => this.textContent='Copy email', 1200);">Copy email</button>
 
