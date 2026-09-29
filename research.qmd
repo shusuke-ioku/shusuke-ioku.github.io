@@ -43,19 +43,20 @@ research:
     pdf: "files/assurance_paper.pdf"
     abstract: >-
       Modern military technologies, including automated weapons and AI-assisted
-      systems, are thought to strengthen deterrence and preserve peace by enhancing
-      limited military operations without provoking wider war. I challenge this
-      optimism by examining their implications for coercive bargaining rather than
-      their direct military effects. I develop a coercive bargaining model with a *subwar capability*:
-      access to limited operations short of general war. Such operations can replace
-      war after resistance or settlement after compliance, potentially weakening
-      coercive threats and assurances. The target may concede less, further weakening
-      assurances and the government's ability to secure concessions. Across broad
-      parameter regions, I show that subwar capability can lower coercive ability and
-      increase war, even when no operation is used. Subwar capability can weaken the
-      effect of military power on coercive ability and reduce social welfare by
-      raising conflict costs. More efficient military technology can thus disrupt coercive
-      bargaining and raise the cost of conflict.
+      systems, are thought to strengthen deterrence and preserve peace by
+      enhancing limited military operations without provoking wider war. I
+      challenge this optimism by examining their implications for coercive
+      bargaining rather than their direct military effects. I develop a coercive
+      bargaining model with a *subwar capability*: access to limited operations
+      short of general war. Such operations can replace war after resistance or
+      settlement after compliance, potentially weakening coercive threats and
+      assurances. The target may concede less, further weakening assurances and
+      the government's ability to secure concessions. Across broad parameter
+      regions, I show that subwar capability can lower coercive ability and
+      increase war, even when no operation is used. Subwar capability can weaken
+      the effect of military power on coercive ability and reduce the two states'
+      combined expected welfare. More efficient military technology can thus
+      disrupt political bargaining and make interstate conflict more costly.
 
   - id: attack-option-paper
     topic: Interstate Conflict
