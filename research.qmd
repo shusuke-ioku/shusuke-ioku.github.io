@@ -14,8 +14,8 @@ research:
   - id: verification-paper
     topic: Cognitive Warfare
     title: "Verifying Away Collective Knowledge"
-    status: Under review
-    pdf: "files/verification_paper.pdf"
+    status: Work in progress
+    pdf: ""
     abstract: >-
       Generative AI lets influence operations fabricate apparent widespread
       support cheaply. I develop a theoretical framework for online forums
@@ -39,8 +39,8 @@ research:
   - id: assurance-paper
     topic: Interstate Conflict
     title: "Modern Force and Coercive Backfire"
-    status: Working paper
-    pdf: "files/assurance_paper.pdf"
+    status: Work in progress
+    pdf: ""
     abstract: >-
       Modern military technologies, including automated weapons and AI-assisted
       systems, are thought to strengthen deterrence and preserve peace by
@@ -62,8 +62,8 @@ research:
     topic: Interstate Conflict
     title: "Assurance in Coercive Bargaining"
     coauthors: "[Shuhei Kurizaki](https://skurizaki.github.io/)"
-    status: Working paper
-    pdf: "files/attack_option_paper.pdf"
+    status: Work in progress
+    pdf: ""
     abstract: >-
       Political actors can fail to secure concessions despite credible threats when
       targets fear that yielding could invite further harm. We show that this assurance
