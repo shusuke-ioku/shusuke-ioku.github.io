@@ -13,7 +13,7 @@ research:
 
   - id: government-reshuffle-paper
     topic: State Development
-    title: "Foreign Threats and Government Reshuffling"
+    title: "Government Reshuffling: A Bellicist Theory of State Building"
     status: Work in progress
     pdf: ""
     abstract: >-
