@@ -332,8 +332,7 @@ main {
 }
 
 .pub-entry .pub-title-sub {
-  display: block;
-  font-size: 0.8em;
+  display: none;
 }
 
 .pub-entry .pub-authors {

@@ -21,12 +21,15 @@ local function esc_html(s)
   return s
 end
 
-local function title_with_subtitle(val)
+local function render_title_html(val)
   local raw = str(val)
   local main, sub = raw:match("^(.-):%s*(.+)$")
   if main and sub then
-    return '<span class="pub-title-main">' .. esc_html(main) .. ':</span> ' ..
-           '<span class="pub-title-sub">' .. esc_html(sub) .. '</span>'
+  -- List shows the main title only; the modal uses the hidden full title block.
+    return '<span class="pub-title-main">' .. esc_html(main) .. '</span>\n' ..
+           '<span class="pub-title-modal" hidden aria-hidden="true">' ..
+           '<span class="pub-title-main">' .. esc_html(main) .. ':</span> ' ..
+           '<span class="pub-title-sub">' .. esc_html(sub) .. '</span></span>'
   end
   return esc_html(raw)
 end
@@ -72,7 +75,7 @@ local function render_papers(papers)
     if p.topic then
       h = h .. '<span class="pub-topic">' .. esc_html(str(p.topic)) .. '</span>\n'
     end
-    h = h .. '<span class="pub-title">' .. title_with_subtitle(p.title) .. '</span>\n'
+    h = h .. '<span class="pub-title">' .. render_title_html(p.title) .. '</span>\n'
     if p.coauthors then
       h = h .. '<div class="pub-authors">with ' .. to_html(p.coauthors) .. '</div>\n'
     end

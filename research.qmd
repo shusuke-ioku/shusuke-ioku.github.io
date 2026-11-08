@@ -155,9 +155,12 @@ window.addEventListener("DOMContentLoaded", function () {
 
       const topic = entry.querySelector(".pub-topic");
       const title = entry.querySelector(".pub-title");
+      const titleModal = entry.querySelector(".pub-title-modal");
       topicEl.textContent = topic ? topic.textContent : "";
       topicEl.hidden = !topic;
-      titleEl.innerHTML = title ? title.innerHTML : "";
+      titleEl.innerHTML = titleModal
+        ? titleModal.innerHTML
+        : (title ? title.innerHTML : "");
       bodyEl.innerHTML = abstract.innerHTML;
 
       lastTrigger = btn;
