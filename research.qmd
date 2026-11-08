@@ -22,9 +22,10 @@ research:
       threats can reshuffle ruling coalitions in favor of more capable leaders.
       Facing foreign danger, elites prioritize survival over political agreement
       and use defense performance to assess potential leaders. I develop a formal
-      model to illustrate the logic. I then test its implications through the
-      case of Tokugawa Japan, exploiting variation in coastal-defense assignments
-      recorded before Perry's arrival in 1853 and the imperial court's challenge
+      model to illustrate the logic. I then test its implications in Tokugawa
+      Japan, in a difference-in-differences design exploiting variation in
+      coastal-defense assignments before Perry's arrival in 1853 and the imperial
+      court's challenge
       to shogunal foreign policy in 1858. Domains with prior defense duties became
       4.1 percentage points more likely annually to experience factional conflict
       after 1858, concentrated in western Japan, chiefly challenges to incumbents;
