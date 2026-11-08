@@ -13,25 +13,26 @@ research:
 
   - id: government-reshuffle-paper
     topic: State Development
-    title: "Government Reshuffling: Foreign Threat and the Origins of State Transformation"
+    title: "Foreign Threats and Government Reshuffling"
     status: Work in progress
     pdf: ""
     abstract: >-
-      Theories of war and the state treat external threats as uniting ruling
-      elites, but in several well-documented cases conflict among rulers came
-      first and the stronger state followed. I argue that defense responsibilities
-      raise the value of capable leadership, while defense performance informs
-      beliefs about prospective leaders and weakened incumbent control permits
-      coalition formation. A formal model shows how the resulting reshuffle can
-      favor modernization, even when incumbent strength also aids implementation.
-      In Tokugawa Japan, the 58 domains with a coastal-defense burden recorded
-      before 1853 saw no rise in challenges to the incumbent until after the
-      imperial court broke with the shogunate in 1858. Their annual probability of
-      factional conflict then rose 4.1 percentage points relative to other domains,
-      concentrated in western Japan. Domains with challenges lost more activists in
-      the national movement, in episodes other than their own challenges. The
-      comparison identifies this first stage, and cases corroborate the sequence
-      but carry the step to a stronger state.
+      Foreign threats are widely understood to foster state building through
+      fiscal and institutional development. I propose a complementary mechanism:
+      threats can reshuffle ruling coalitions in favor of more capable leaders.
+      Facing foreign danger, elites prioritize survival over political agreement
+      and use defense performance to assess potential leaders. I develop a formal
+      model to illustrate the logic. I then test its implications through the
+      case of Tokugawa Japan, exploiting variation in coastal-defense assignments
+      recorded before Perry's arrival in 1853 and the imperial court's challenge
+      to shogunal foreign policy in 1858. Domains with prior defense duties became
+      4.1 percentage points more likely annually to experience factional conflict
+      after 1858, concentrated in western Japan, chiefly challenges to incumbents;
+      no comparable rise followed
+      Perry's arrival in 1853. These challenges also coincided with national
+      confrontation. Historical evidence links these struggles to the Meiji
+      Restoration's reshuffle of national leadership and modernization under the
+      new government.
 
   - id: verification-paper
     topic: Cognitive Warfare
